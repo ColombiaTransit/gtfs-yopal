@@ -1,0 +1,33 @@
+candidate_a,candidate_b,distance_m,osm_way_a,osm_way_b,direction_a,direction_b,evidence_a,evidence_b,bearing_a_deg,bearing_b_deg,bearing_delta_deg,decision,reason,conservative_grouped,expanded_grouped,current_stop_verified
+PIMUR2017-R2-003,PIMUR2017-R13-001,1.37,220675156,220675156,salida,salida,shape_distance,shape_distance,333.1,332.9,0.2,group_shape_supported,"Same OSM way, close historical symbols and compatible travel bearings",true,true,false
+PIMUR2017-R2-004,PIMUR2017-R3-004,1.19,86406219,86406219,llegada,llegada,shape_distance,shape_distance,152.4,148.7,3.7,group_shape_supported,"Same OSM way, close historical symbols and compatible travel bearings",true,true,false
+PIMUR2017-R2-004,PIMUR2017-R13-002,4.09,86406219,86406219,llegada,llegada,shape_distance,shape_distance,152.4,150.3,2.1,group_shape_supported,"Same OSM way, close historical symbols and compatible travel bearings",true,true,false
+PIMUR2017-R2-008,PIMUR2017-R13-003,13.62,220675156,220675156,salida,salida,shape_distance,shape_distance,331.2,331,0.2,group_shape_supported,"Same OSM way, close historical symbols and compatible travel bearings",true,true,false
+PIMUR2017-R2-009,PIMUR2017-R13-004,9.73,240568891,240568891,llegada,llegada,shape_distance,shape_distance,151.8,150.2,1.6,group_shape_supported,"Same OSM way, close historical symbols and compatible travel bearings",true,true,false
+PIMUR2017-R2-010,PIMUR2017-R13-005,4.85,987247887,987247887,llegada,llegada,shape_distance,shape_distance,152.5,152.8,0.3,group_shape_supported,"Same OSM way, close historical symbols and compatible travel bearings",true,true,false
+PIMUR2017-R2-011,PIMUR2017-R13-006,4.92,86403203,86403203,salida,salida,shape_distance,shape_distance,331.3,331.9,0.6,group_shape_supported,"Same OSM way, close historical symbols and compatible travel bearings",true,true,false
+PIMUR2017-R2-013,PIMUR2017-R13-008,3.75,238641448,238641448,salida,salida,shape_distance,shape_distance,329.9,331.2,1.3,group_shape_supported,"Same OSM way, close historical symbols and compatible travel bearings",true,true,false
+PIMUR2017-R2-014,PIMUR2017-R13-015,4.1,238641448,238641448,salida,salida,shape_distance,shape_distance,330.5,331.1,0.6,group_shape_supported,"Same OSM way, close historical symbols and compatible travel bearings",true,true,false
+PIMUR2017-R2-028,PIMUR2017-R3-038,4.48,987242436,987242436,,salida,unresolved,road_side_hypothesis,,273,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R2-044,PIMUR2017-R13-033,9.53,85193848,85193848,,llegada,unresolved,road_side_hypothesis,,270.8,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R2-045,PIMUR2017-R13-034,4.22,832027311,832027311,,,unresolved,unresolved,,,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R3-004,PIMUR2017-R13-002,5.12,86406219,86406219,llegada,llegada,shape_distance,shape_distance,148.7,150.3,1.6,group_shape_supported,"Same OSM way, close historical symbols and compatible travel bearings",true,true,false
+PIMUR2017-R3-013,PIMUR2017-R13-009,4.33,1018490431,1018490431,llegada,,shape_distance,unresolved,227.9,,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R3-014,PIMUR2017-R13-010,1.1,222527210,222527210,llegada,llegada,shape_distance,road_side_hypothesis,254.5,254.7,0.2,group_side_hypothesis,"Same OSM way, close historical symbols and compatible travel bearings",false,true,false
+PIMUR2017-R3-017,PIMUR2017-R13-013,5.95,222527210,222527210,,llegada,unresolved,road_side_hypothesis,,255.9,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R3-019,PIMUR2017-R13-016,2.1,85583429,85583429,,,unresolved,unresolved,,,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R3-020,PIMUR2017-R13-017,7.21,85222915,1018463790,,,unresolved,unresolved,,,,keep_separate,Different nearest OSM ways,false,false,false
+PIMUR2017-R3-026,PIMUR2017-R13-018,5.82,222922113,222922113,,llegada,unresolved,road_side_hypothesis,,250.3,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R3-027,PIMUR2017-R13-019,1.05,85583396,85583396,,,unresolved,unresolved,,,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R3-031,PIMUR2017-R13-020,9.17,215249694,215249694,,,unresolved,unresolved,,,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R3-032,PIMUR2017-R13-021,3.86,596258699,596258699,,,unresolved,unresolved,,,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R3-033,PIMUR2017-R13-022,0.55,102474969,102474969,,,unresolved,unresolved,,,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R3-034,PIMUR2017-R13-023,3.91,102474969,102474969,,,unresolved,unresolved,,,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R3-035,PIMUR2017-R13-024,3.29,221914201,221914201,,,unresolved,unresolved,,,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R3-036,PIMUR2017-R13-025,2.78,222572055,85172823,,,unresolved,unresolved,,,,keep_separate,Different nearest OSM ways,false,false,false
+PIMUR2017-R3-046,PIMUR2017-R13-029,2.15,85193836,85193836,llegada,,road_side_hypothesis,unresolved,280.7,,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R3-049,PIMUR2017-R13-030,0.46,85193835,85193835,salida,salida,road_side_hypothesis,road_side_hypothesis,100.6,100.2,0.4,group_side_hypothesis,"Same OSM way, close historical symbols and compatible travel bearings",false,true,false
+PIMUR2017-R3-050,PIMUR2017-R13-036,2.88,832022718,832022718,llegada,llegada,road_side_hypothesis,road_side_hypothesis,280.6,280.1,0.5,group_side_hypothesis,"Same OSM way, close historical symbols and compatible travel bearings",false,true,false
+PIMUR2017-R3-051,PIMUR2017-R13-037,2.31,832022707,832022707,salida,salida,road_side_hypothesis,road_side_hypothesis,100.5,101,0.5,group_side_hypothesis,"Same OSM way, close historical symbols and compatible travel bearings",false,true,false
+PIMUR2017-R3-052,PIMUR2017-R13-038,1.05,380283528,380283528,,,unresolved,unresolved,,,,keep_separate,Unresolved direction,false,false,false
+PIMUR2017-R3-053,PIMUR2017-R13-039,5.35,339383060,339383060,salida,salida,road_side_hypothesis,road_side_hypothesis,88,86.8,1.2,group_side_hypothesis,"Same OSM way, close historical symbols and compatible travel bearings",false,true,false
