@@ -9,6 +9,12 @@ Review date: 2026-11-26.
 3. ColMind Studio / InfoBusetas: provisional secondary source. Independent local initiative; the user observed extensive advertising on the websites. Hobby-project/advertising-funded status is an impression, not a verified organizational or funding classification. Advertising is not proof of inaccurate data. The original source of its numerical schedules is unknown.
 4. Historic studies and counts: useful for comparison, not automatically a replacement for an applicable operating act.
 
+## Route inclusion policy (user decision, 2026-11-26)
+
+Applicable municipal operating acts govern route inclusion and authorized headways. Apply acts chronologically, retaining the latest applicable provision unless superseded, withdrawn or expired. A ColMind enabled=false flag alone is never grounds to exclude a legally authorized route; enabled=true alone does not prove authorization. Where a valid act establishes operation, include the route even if ColMind disables it, subject to obtaining enough data to generate a valid feed. Use ColMind only to fill missing timetable/geometry information provisionally. Keep source status separate from legal status. A planning proposal is not an operating authorization. Verify explicit suspensions, withdrawals and expiry; document contradictory operational evidence separately.
+
+All 14 route IDs remain in the research scope. The exact route-level authorizations from Decreto 090/2019 and subsequent acts have not yet been recovered. Do not infer that all 14 operate today from the 2018 planning decree. The six ColMind-disabled routes (1, 4, 5, 11, 12, 14) require legal reconciliation, not automatic exclusion.
+
 ## Official research already performed
 
 - Decreto 267 of 26 October 2018, articles 16–18: proposed 14 routes, references to route/stop maps and tables 3-5 through 3-19 in Estructuración de Sistema Integrado de Transporte Público de Yopal. The operational annexes were not obtained.
@@ -25,7 +31,7 @@ Sources:
 - COLMIND_INDEX: https://infobusetas.click/yopal (MHT displayed last update 2026-02-27).
 - COLMIND_R2: route 2 detail page.
 - COLMIND_FIREBASE: https://rutas-busetas-yopal-default-rtdb.firebaseio.com/features/0/rutas.json (user-provided export reviewed 2026-11-26; dataset update timestamp not established).
-- IndexController and DetalleRutaController source supplied by user; website displays start as AM and end as PM. Normalize end hours 01–11 by adding 12, 12:00 remains noon. No-service placeholders are not actual times. Do not infer a service from a disabled record.
+- IndexController and DetalleRutaController source supplied by user; website displays start as AM and end as PM. Normalize end hours 01–11 by adding 12, 12:00 remains noon. No-service placeholders are not actual times. Do not infer a service solely from a disabled record; legal operating evidence overrides its disabled flag.
 
 The Firebase export has 14 route records; enabled IDs 2,3,6,7,8,9,10,13. All 24 active-route day-type records agree with the existing [service windows](service_windows.csv), including 21 service records and three explicit no-service records. This is same-publisher cross-checking, NOT independent official validation.
 
@@ -40,11 +46,11 @@ The Firebase export has 14 route records; enabled IDs 2,3,6,7,8,9,10,13. All 24 
 | 10 | 16 | No service | No service |
 | 13 | 10 | 8 | 12 |
 
-Disabled route 11 retains weekday 05:20–17:40 / 15 min, Saturday 06:00–18:00 / 20 min, Sunday no service. Undated disabled-record evidence only; do not activate or describe as an established historical timetable.
+Disabled route 11 retains weekday 05:20–17:40 / 15 min, Saturday 06:00–18:00 / 20 min, Sunday no service. Undated disabled-record evidence only; do not activate solely on this evidence or describe as an established historical timetable; include if supported by an applicable operating act.
 
 ## GTFS decisions pending
 
-- No independently verified numerical legal headways yet (0/8 enabled routes).
+- No independently verified numerical legal headways yet. All 14 route IDs remain under review; eight have ColMind-reported schedules.
 - No confirmed peak/off-peak windows. Do not invent them.
 - Headway applicability (direction, whole loop or corridor), dispatch origin and end-window inclusivity remain unverified; both geometry branches meeting at termini do not prove two independent scheduled services. Avoid double-counting departures.
 - Sundays and public holidays grouped by source; use Python holidays for Colombian calendar exceptions if adopted.
