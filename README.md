@@ -1,21 +1,19 @@
-# Yopal urban bus GTFS research
+# Yopal urban bus GTFS
 
-Research for a future static GTFS feed covering urban buses in Yopal, Casanare, Colombia.
+Static GTFS research and preparation for urban bus services in Yopal, Casanare, Colombia.
 
-**Status (2026-11-26): research only.** No scraper, generator or published feed yet.
+**Status (2026-11-26): legal research closed for the initial generator.** Generator and public feed not yet built.
 
-- [Research findings and open questions](research/status.md)
+- [Research closure and generator handover](research/research-closure.md)
+- [Legal route baseline](research/legal-route-baseline.csv)
+- [Official service windows](research/decreto_090_2019_service_windows.csv)
+- [Official route assignments](research/decreto_090_2019_routes.csv)
+- [Legal chronology](research/legal-act-chronology.csv)
 - [Source register](research/sources.md)
-- [Route inventory](research/routes.csv)
-- [Reported operating hours and headways](research/service_windows.csv)
-- [Frequency evidence and Firebase cross-check](research/frequency-research.md)
-- [Original PIMUR annex review](research/pimur-annex-review.md)
-- [PIMUR update procurement review](research/pimur-update-procurement.md)
+- [Route 8 observed journey times](research/route8-observed-travel-times.csv)
+- [Shape validation](research/shape-validation/README.md)
+- [Historical stop research](research/historical-stops/stop-research-closure.md)
 
-The independent Busetas Yopal website snapshot (last update displayed: 2026-02-27) lists eight enabled and six disabled routes. A municipal statement reported nine operational routes in February 2026; the discrepancy is unresolved. TUYO is the reported joint operating arrangement of four transport companies. The reported 2026 fare is COP 2,700, pending primary decree verification.
+Decreto 090/2019 is the latest verified route-specific framework: 14 route candidates and 42 authorized day-type windows. Decreto 030/2026 establishes COP 2700 and explicitly references 090. The complete published Normatividad index was collected (4574 records); 18 shortlisted acts and 21 PDFs retrieved, with no later permanent numbered-route amendment or withdrawal identified in reviewed sources. Metadata screening is not exhaustive legal verification. No further general archive crawl is planned.
 
-The Findeter archives have been reviewed; the operational report and numerical official headways remain missing. The user-supplied Firebase route export now confirms all 24 reported day-type records and contains both geometry branches for all eight enabled routes. ColMind remains a provisional independent source, not official validation. Priority: verify frequency semantics, applicable operating acts, geometry, stops and reuse terms.
-
-**Route selection:** Applicable municipal operating acts govern route inclusion and authorized headways. Apply acts chronologically, retaining the latest applicable provision unless superseded, withdrawn or expired. A ColMind enabled=false flag alone is never grounds to exclude a legally authorized route; enabled=true alone does not prove authorization. Where a valid act establishes operation, include the route even if ColMind disables it, subject to obtaining enough data to generate a valid feed. Use ColMind only to fill missing timetable/geometry information provisionally. Keep source status separate from legal status. A planning proposal is not an operating authorization. Verify explicit suspensions, withdrawals and expiry; document contradictory operational evidence separately. All 14 route IDs remain in research scope, including the six marked disabled by ColMind. The final legally supported route count is not yet established.
-
-All research data are provisional. Do not publish a GTFS feed until source verification, reuse permissions, route geometry, service semantics and stop policy have been resolved. See the source register for evidence levels.
+Route selection follows applicable acts chronologically; the independent ColMind enabled flag is not a legal decision. The eight reported enabled routes and nine reported operating routes remain distinct from the 14-route legal baseline. No current operation is asserted for every authorized route. Official headways are maximum intervals, not exact observed timetables. Source reuse rights, current stop locations and boarding policy, independent shape construction, and actual service evidence remain release considerations. Do not publish an unverified traveler feed. See the handover for decisions and remaining engineering work.

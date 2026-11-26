@@ -80,3 +80,7 @@ See [legal-act-consolidation.md](legal-act-consolidation.md), [chronology](legal
 ## First selected original acts review
 
 See [selected-legal-acts-review.md](selected-legal-acts-review.md). 18 selected acts / 21 PDFs retrieved successfully; operative articles and unrelated case subjects screened. Six original urban fare acts verified, latest COP 2700 under 090/2019. 031/2026 modifies terminal planning only; 142/2026 does not repeal 030/031 and does not cover 2019. 343/2022 is taxi tariffs despite title. No permanent urban route change established. Retain 14 legal candidates and 42 windows, actual operation separately unresolved. Remaining evaluation/withdrawal evidence, other metadata candidates, and technical annex review pending.
+
+## Research closure — 2026-11-26
+
+See [research-closure.md](research-closure.md) for the final bounded legal check, decisions and generator handover. Stop general legal archive research. Verified 14 legal route candidates and 42 official windows; no new applicable act established. Historical R8 sample 90 journey times, median 68 minutes; inconsistent survey dates and length mismatch documented. Begin technical generator work from existing canonical inputs. No public GTFS yet.
