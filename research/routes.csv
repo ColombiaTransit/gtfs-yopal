@@ -1,0 +1,15 @@
+route_id,status_reported,operator_historical,operator_evidence_year,official_mapping_reported,source_id
+1,disabled,,,,COLMIND_INDEX
+2,enabled,Coocatrans Ltda.,2020,Findeter map page 40,COLMIND_INDEX
+3,enabled,Cootrallanero Ltda.,2020,Findeter map page 40,COLMIND_INDEX
+4,disabled,,,,COLMIND_INDEX
+5,disabled,,,,COLMIND_INDEX
+6,enabled,,,,COLMIND_INDEX
+7,enabled,Flota Sugamuxi S.A.,2020,,COLMIND_INDEX
+8,enabled,Coocatrans Ltda.,2024,Decreto 099 street description,COLMIND_INDEX
+9,enabled,Llano Líneas,2020,,COLMIND_INDEX
+10,enabled,,,,COLMIND_INDEX
+11,disabled,,,,COLMIND_INDEX
+12,disabled,,,,COLMIND_INDEX
+13,enabled,,,Findeter map page 41,COLMIND_INDEX
+14,disabled,,,,COLMIND_INDEX
