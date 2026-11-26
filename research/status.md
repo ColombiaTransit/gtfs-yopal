@@ -84,3 +84,7 @@ See [selected-legal-acts-review.md](selected-legal-acts-review.md). 18 selected 
 ## Research closure — 2026-11-26
 
 See [research-closure.md](research-closure.md) for the final bounded legal check, decisions and generator handover. Stop general legal archive research. Verified 14 legal route candidates and 42 official windows; no new applicable act established. Historical R8 sample 90 journey times, median 68 minutes; inconsistent survey dates and length mismatch documented. Begin technical generator work from existing canonical inputs. No public GTFS yet.
+
+## Route-by-route geometry review
+
+Run 45838773589: 14 candidate circuits, 386/478 linked points, 92 unresolved. Freeze general reconstruction. See [geometry-review](geometry-review/README.md): R10 retained as reviewed legal-draft candidate, R6 and R7 reviewed with specific geometry/source gaps outstanding. No operational route approved. Other eleven routes remain for specific review. No new general research or workflow rerun.
