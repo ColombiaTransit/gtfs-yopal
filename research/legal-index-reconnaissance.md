@@ -1,0 +1,11 @@
+# Legal archive index reconnaissance — 2026-11-26
+
+Municipal index: https://yopalcasanare.micolombiadigital.gov.co/normatividad and https://www.yopal-casanare.gov.co/normatividad. Both returned no readable lines in web retrieval. The official homepage has a general content feed with 4,324 pages; do not crawl that feed indiscriminately. The separate legal database https://vlex.com.co/source/normativa-alcaldia-yopal-35470 reported 2,413 decrees, 1,096 resolutions, 388 agreements and 66 circulars across all years. Its resolution category https://vlex.com.co/source/normativa-alcaldia-yopal-35470/c/resolucion showed 30 visible entries (different cached total 1,085); most descriptions unrelated to bus operation. The title of Resolution 229/2019 (appeal) alone is insufficient to identify its subject. Pagination via ?page=2 was not accessible; no complete inventory is claimed. vLex is not scraped by the collector.
+
+Public targeted search again recovered the 2019 baseline and 2024/2025 fare evidence but no route-specific withdrawal. Maintain the 14-route legal baseline and 42 service windows unchanged.
+
+## Probe
+
+Run the Municipal legal index probe workflow. It fetches only official HTML listing pages discovered by links, respecting robots policy, avoiding binary documents and avoiding general content feeds. Default 25 pages; no recurring schedule; no auto-commit. Output: all-act-metadata.csv, transport-candidates.csv and summary.json in an Actions artifact. Review dates in the actual title/description separately from publication dates and never assume a year mention is the act date. Candidate matching includes operator names, TUYO, PIMUR, abandonment/vacancy, headways, appeal and general transport words. No match does not prove an act is irrelevant. This is an untested first-pass parser, not a validated complete archive extractor. If robots or HTML retrieval fails or no pagination appears, inspect diagnostics and obtain an actual accessible index URL/export rather than guessing document IDs or bypassing access restrictions. No PDFs are downloaded by this workflow.
+
+Next: inspect the first run, establish listing structure and coverage by year, manually select candidate acts, obtain only relevant documents, and apply chronologically. No automatic service activation or legal conclusion from title matching.
