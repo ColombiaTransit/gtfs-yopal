@@ -1,15 +1,15 @@
-route_id,status_reported,operator_historical,operator_evidence_year,official_mapping_reported,source_id
-1,disabled,,,,COLMIND_INDEX
-2,enabled,Coocatrans Ltda.,2020,Findeter map page 40,COLMIND_INDEX
-3,enabled,Cootrallanero Ltda.,2020,Findeter map page 40,COLMIND_INDEX
-4,disabled,,,,COLMIND_INDEX
-5,disabled,,,,COLMIND_INDEX
-6,enabled,,,,COLMIND_INDEX
-7,enabled,Flota Sugamuxi S.A.,2020,,COLMIND_INDEX
-8,enabled,Coocatrans Ltda.,2024,Decreto 099 street description,COLMIND_INDEX
-9,enabled,Llano Líneas,2020,,COLMIND_INDEX
-10,enabled,,,,COLMIND_INDEX
-11,disabled,,,,COLMIND_INDEX
-12,disabled,,,,COLMIND_INDEX
-13,enabled,,,Findeter map page 41,COLMIND_INDEX
-14,disabled,,,,COLMIND_INDEX
+route_id,status_reported,operator_historical,operator_evidence_year,official_mapping_reported,source_id,legal_operating_status,legal_act_reference,gtfs_selection_status
+1,disabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+2,enabled,Coocatrans Ltda.,2020,Findeter map page 40,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+3,enabled,Cootrallanero Ltda.,2020,Findeter map page 40,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+4,disabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+5,disabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+6,enabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+7,enabled,Flota Sugamuxi S.A.,2020,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+8,enabled,Coocatrans Ltda.,2024,Decreto 099 street description,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+9,enabled,Llano Líneas,2020,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+10,enabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+11,disabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+12,disabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+13,enabled,,,Findeter map page 41,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+14,disabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
