@@ -1,0 +1,29 @@
+name: Selected municipal legal acts
+on:
+  push:
+    paths:
+      - 'research/legal-act-shortlist.csv'
+      - 'scripts/fetch_selected_legal_acts.py'
+      - '.github/workflows/selected-legal-acts.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests==2.32.5 beautifulsoup4==4.14.3
+      - name: Retrieve shortlisted acts only
+        run: python scripts/fetch_selected_legal_acts.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: yopal-selected-legal-acts
+          path: selected-legal-acts/
+          if-no-files-found: warn
+          retention-days: 14
