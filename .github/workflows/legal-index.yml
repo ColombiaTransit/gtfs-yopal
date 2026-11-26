@@ -6,45 +6,24 @@ on:
       - 'scripts/diagnose_legal_index.py'
       - '.github/workflows/legal-index.yml'
   workflow_dispatch:
-    inputs:
-      max_pages:
-        description: Maximum number of listing pages
-        type: number
-        default: 25
-      seed:
-        description: Optional observed official listing URL
-        type: string
-        required: false
 permissions:
   contents: read
 concurrency:
   group: legal-index
   cancel-in-progress: false
 jobs:
-  collect:
+  discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests==2.32.5 beautifulsoup4==4.14.3
-      - name: Collect metadata only
-        env:
-          MAX_PAGES: ${{ inputs.max_pages || '25' }}
-          SEED: ${{ inputs.seed || '' }}
-        run: |
-          args=(--max-pages "$MAX_PAGES")
-          if [ -n "$SEED" ]; then args+=(--seed "$SEED"); fi
-          python scripts/collect_legal_index.py "${args[@]}"
-      - name: Install browser diagnostics
-        if: failure()
-        run: |
-          pip install playwright
+      - run: |
+          pip install requests==2.32.5 beautifulsoup4==4.14.3 playwright
           python -m playwright install --with-deps chromium
-      - name: Diagnose rendered municipal index
-        if: failure()
+      - name: Inspect actual municipal archive and list API
         run: python scripts/diagnose_legal_index.py
       - uses: actions/upload-artifact@v4
         if: always()

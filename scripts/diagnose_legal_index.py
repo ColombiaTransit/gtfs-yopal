@@ -9,9 +9,8 @@ from playwright.sync_api import sync_playwright
 from collect_legal_index import UA, HOSTS, BINARY, extract
 
 URLS = [
-    "https://yopalcasanare.micolombiadigital.gov.co/",
-    "https://www.yopal-casanare.gov.co/",
-    "https://www.yopal-casanare.gov.co/normatividad/decreto-no-116-de-24--de-agosto-de-2026",
+    "https://yopalcasanare.micolombiadigital.gov.co/tema/normatividad",
+    "https://yopalcasanare.micolombiadigital.gov.co/transparencia",
 ]
 
 GLOBAL_HOST = "www.micolombiadigital.gov.co"
@@ -20,6 +19,27 @@ GLOBAL_PATHS = {"/api/v1/globallogo", "/api/v1/featuredsitemenu/yopalcasanare", 
 def public_path(url):
     p = urlsplit(url)
     return urlunsplit((p.scheme, p.netloc, p.path, "", ""))
+
+def summarize_json(value, depth=0):
+    """Keep schema, pagination counts and public document metadata only."""
+    if depth > 5:
+        return type(value).__name__
+    if isinstance(value, list):
+        return {"type": "array", "count": len(value), "sample": [summarize_json(x, depth + 1) for x in value[:3]]}
+    if isinstance(value, dict):
+        out = {"type": "object", "keys": sorted(value)}
+        public = {"title", "name", "slug", "alias", "description", "summary", "publishedat", "publicationdate", "createdat", "date", "contenttype", "type", "url", "total", "totalcount", "totalpages", "page", "pagesize", "hasnextpage", "count", "nextpage", "id"}
+        for key, val in value.items():
+            if key.lower() in public and isinstance(val, (str, int, float, bool, type(None))):
+                if isinstance(val, str):
+                    val = BeautifulSoup(val, "html.parser").get_text(" ", strip=True)[:350]
+                out[key] = val
+            elif key.lower() in {"items", "data", "results", "records", "contents", "content", "list", "pagination", "meta", "tags", "types", "contenttypes"} and isinstance(val, (dict, list)):
+                out[key] = summarize_json(val, depth + 1)
+            elif isinstance(val, list):
+                out[key + "_count"] = len(val)
+        return out
+    return type(value).__name__
 
 def main():
     out = Path("archive-index")
@@ -72,11 +92,11 @@ def main():
                     continue
                 context = browser.new_context(user_agent=UA, accept_downloads=False, service_workers="block")
                 page = context.new_page()
-                observed, blocked, errors, json_shapes = [], [], [], []
+                observed, blocked, errors, list_responses = [], [], [], []
                 def route_request(route):
                     req = route.request
                     p = urlsplit(req.url)
-                    if p.scheme in ("data", "blob") or req.resource_type in ("image", "media", "font") or BINARY.search(p.path) or "/content/files/" in p.path:
+                    if p.scheme in ("data", "blob") or req.resource_type in ("image", "media", "font") or BINARY.search(p.path) or "/content/files/" in p.path or p.path.rstrip("/").endswith("/comments"):
                         route.abort()
                     elif req.method != "GET" or not allowed(req.url):
                         blocked.append({"url": public_path(req.url), "type": req.resource_type, "method": req.method})
@@ -93,13 +113,31 @@ def main():
                     if kind in ("xhr", "fetch"):
                         item["query_keys"] = sorted({k for k, v in parse_qsl(urlsplit(response.url).query)})
                         item["pagination"] = {k: v for k, v in parse_qsl(urlsplit(response.url).query)
-                                              if k.lower() in ("page", "limit", "size", "offset", "perpage", "per_page", "skip", "take") and v.isdigit()}
+                                              if k.lower() in ("page", "limit", "size", "offset", "perpage", "per_page", "pagesize", "skip", "take") and v.isdigit()}
+                    if kind in ("xhr", "fetch") and urlsplit(response.url).path.rstrip("/") == "/api/v1/contents" and response.status == 200:
+                        params = parse_qsl(urlsplit(response.url).query, keep_blank_values=True)
+                        permitted = {"page", "pagesize", "limit", "offset", "contenttype", "tags", "tag", "fromdate", "todate", "rangetype", "featured", "hasnextpage", "includetags", "includetypes", "isfull", "orderby", "search", "query", "category", "type"}
+                        item["list_parameters"] = {k: v[:500] for k, v in params if k.lower() in permitted}
+                        list_responses.append((response, item))
                     observed.append(item)
                 page.on("response", record_response)
                 page.on("pageerror", lambda error: errors.append(str(error)[:300]))
                 try:
                     page.goto(url, wait_until="domcontentloaded", timeout=30000)
                     page.wait_for_timeout(8000)
+                    result["list_schema"] = []
+                    for response, item in list_responses[:12]:
+                        try:
+                            if "json" not in item["content_type"].lower():
+                                continue
+                            payload = response.json()
+                            result["list_schema"].append({
+                                "endpoint": item["url"],
+                                "parameters": item.get("list_parameters", {}),
+                                "schema": summarize_json(payload),
+                            })
+                        except Exception as exc:
+                            result["list_schema"].append({"endpoint": item["url"], "error": type(exc).__name__})
                     rendered = BeautifulSoup(page.content(), "html.parser")
                     result["rendered"] = {
                         "title": page.title(), "url": public_path(page.url),
