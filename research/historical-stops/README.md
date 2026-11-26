@@ -26,13 +26,13 @@ Research snapshot: 2026-11-26. These files are **not verified operational GTFS s
 
 ## Decisions and next steps
 
-Of 138 route-specific candidates, 118 are within 50 m of either current same-number shape, 9 are between 50 and 100 m, and 11 are beyond 100 m. These counts are before deduplication. All direction, stop-use and cross-route hypotheses remain provisional. No coordinates have been automatically moved, no candidates have been merged or reassigned, and no final stops.txt or GTFS feed is generated here. Retain historical IDs for traceability.
+Of 138 route-specific candidates, 118 are within 50 m of either current same-number shape, 9 are between 50 and 100 m, and 11 are beyond 100 m. These counts are before deduplication. All direction, stop-use and cross-route hypotheses remain provisional. No coordinates have been automatically moved, no candidates were merged or reassigned in this original snapshot, and no final stops.txt or GTFS feed is generated here. Retain historical IDs for traceability.
 
-Next: review potential duplicates with direction, calculate spatial coverage and large stop gaps per active route/direction, assess boarding policy before selecting fixed stops versus continuous pickup/drop-off, and resolve licensing and current-service verification before release. Preserve differences between OSM and Firebase schedules (especially route 9); official acts remain the preferred authority.
+Deduplication is now documented in [deduplication-review.md](deduplication-review.md): 109 conservative candidate locations or 104 including side hypotheses, preserving all 118 source records. Next: calculate spatial coverage and large stop gaps per active route/direction, assess boarding policy before selecting fixed stops versus continuous pickup/drop-off, and resolve licensing and current-service verification before release. Preserve differences between OSM and Firebase schedules (especially route 9); official acts remain the preferred authority.
 
 ## Integrity
 
-The ten analysis files are byte-identical to the working research outputs, verified by Git blob SHA-1:
+The following Git blob SHA-1 hashes identify the ten archived research files. CSV text was reconstructed from the file reader (including removal of its displayed index); original upload byte-for-byte equivalence was not independently verified:
 
 - `b28aa5f0616f8578082102ebd4b65d25c3ce8a8f`  `yopal_historical_stop_candidates.csv`
 - `5e7728062bbcb30b9af2d5297ff70a9c15cc9cfb`  `yopal_historical_stop_candidates.geojson`

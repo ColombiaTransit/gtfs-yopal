@@ -12,7 +12,7 @@ This stage groups 118 historical candidates within 50 m of the current same-numb
 
 ## Results
 
-10 shape-supported edges form 9 groups (8 pairs and one triple; 19 source records), reducing 118 to 109 locations. Five additional side-based pairs reduce the expanded alternative to 104; they are NOT applied in the conservative file. The underlying 118 source records and 200 possible shape-direction associations are preserved in both mappings. The triple is R2-004 / R3-004 / R13-002. Original georeferenced data and uncertainty remain unchanged.
+10 shape-supported edges form 8 non-singleton groups (7 pairs and one triple; 17 source records), reducing 118 to 109 locations. Five additional side-based pairs reduce the expanded alternative to 104; they are NOT applied in the conservative file. The underlying 118 source records and 200 possible shape-direction associations are preserved in both mappings. The triple is R2-004 / R3-004 / R13-002. Original georeferenced data and uncertainty remain unchanged.
 
 | File | Records |
 |---|---:|
