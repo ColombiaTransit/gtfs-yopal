@@ -12,6 +12,8 @@ QUERY = """[out:json][timeout:180];
   nwr["public_transport"~"^(platform|stop_position|station)$"](5.22,-72.49,5.40,-72.31);
   nwr["amenity"="bus_station"](5.22,-72.49,5.40,-72.31);
   relation["type"="route"]["route"="bus"](5.22,-72.49,5.40,-72.31);
+  relation["type"="restriction"](5.22,-72.49,5.40,-72.31);
+  nwr["name"~"Guafilla|Villa David|Bendici[oó]n|Silencio|Hospital|Estadio|Manare|Sirivana|Alcald[ií]a|Decisi[oó]n|Real Casanare|San Marcos|Enerca|Llano Lindo|Villa Luc[ií]a|Gaula",i](5.22,-72.49,5.40,-72.31);
 );
 out body;
 >;
