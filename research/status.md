@@ -22,12 +22,16 @@ The route 2 snapshot shows Leaflet/OpenStreetMap and a legend with Recorrido de 
 
 Findeter maps reportedly show routes 2 and 3 on printed p. 40 and route 13 on p. 41, with stop symbols. Verify map date, planned vs operational stops, and geometry before use. Decreto 267/2018 reportedly references 14 route maps. The 2024 route 8 survey reportedly describes a round trip starting/ending in Villa Lucía with observed travel times roughly 60–75 minutes; original tables still need review.
 
-All eight active routes have descriptive itineraries in the local ColMind index snapshot. No original shapes or verified stop coordinates have been recovered. Do not create fictitious stops. Consider continuous pickup/dropoff only if actual boarding policy supports it. Use GraphHopper for geometry/travel time only where needed after checking original evidence.
+All eight active routes have descriptive itineraries in the local ColMind index snapshot. The later user-supplied Firebase export contains both original geometry branches for all eight enabled routes. Geometry quality and verified stop coordinates remain open. Do not create fictitious stops. Consider continuous pickup/dropoff only if actual boarding policy supports it. Use GraphHopper for geometry/travel time only where needed after checking original evidence.
+
+## Frequency research update (2026-11-26)
+
+See [frequency-research.md](frequency-research.md): 24/24 day-type records match Firebase, but 0/8 active routes have independently verified numerical legal headways. User reports estimateTime=false. The independent source is provisional. Both Findeter archive inventories and selected annexes have been reviewed; the PIMUR operational report remains missing. Further administrative contract-document review is parked pending a direct technical lead.
 
 ## Work list
 
-- [ ] Obtain local file inventories for both Findeter annex ZIPs (each approximately 400 MB according to user).
-- [ ] Compare file lists and, if needed, SHA-256 hashes; avoid duplicate downloads and raw archive commits.
+- [x] Obtain local file inventories for both Findeter annex ZIPs (each approximately 400 MB according to user).
+- [x] Compare file lists and, if needed, SHA-256 hashes; avoid duplicate downloads and raw archive commits.
 - [ ] Locate Anexo 15 / PIMUR and nested archives. Prioritize GIS layers, route maps, stops, frequencies, dispatch windows, travel times and operator assignments.
 - [ ] Recover Decreto 090/2019 and Decreto 267/2018 with annexes; check later amendments and PIMUR update.
 - [ ] Obtain original 2026 fare decree and verify effective date and scope.
@@ -35,7 +39,7 @@ All eight active routes have descriptive itineraries in the local ColMind index 
 - [ ] Check official stop inventory and planned vs existing stop status.
 - [ ] Review all route directions, loops, service windows and frequency semantics.
 - [ ] Resolve licensing/reuse rights for each source.
-- [ ] Only then decide whether a ColMind scraper is useful; prefer authoritative source files when available.
+- [ ] Consider a read-only Firebase collector with a strict transit-field allowlist and no telemetry retention; resolve reuse rights before publication. Prefer authoritative source files when available.
 - [ ] Later: generate GTFS with Colombia public holidays (Python holidays), appropriate day-type exceptions, MobilityData validation and stable release filename/tag. No publication until prerequisites are met.
 
 ## Local archive triage (Windows CMD)
