@@ -5,14 +5,15 @@ Research snapshot: 2026-11-26. "Snapshot verified" means the locally supplied MH
 | ID | Source | Evidence status | Relevance |
 |---|---|---|---|
 | COLMIND_INDEX | [Busetas Yopal](https://rutas-busetas-yopal.web.app/yopal), also [infobusetas.click](https://infobusetas.click/yopal) | Snapshot verified; displayed update 2026-02-27 | Route status, route-level headways, operating windows and descriptions |
+| COLMIND_FIREBASE | [Yopal routes JSON](https://rutas-busetas-yopal-default-rtdb.firebaseio.com/features/0/rutas.json) | User export reviewed 2026-11-26; same-source cross-check, not official | All 24 active-route day-type records agree; both geometry branches available; exclude telemetry |
 | COLMIND_R2 | [Route 2](https://rutas-busetas-yopal.web.app/yopal/detalle_ruta?ruta=2) | Snapshot verified | Same schedule as index; map legend for subida/bajada; estimated departures from origin |
 | FIND_2023 | [Perfil Técnico Definitivo MIB Yopal](https://www.fiducentral.com/images/files/2024/convocatorias/findeter/obras/2023_PerfilT%C3%A9cnicoDefinitivo_MIB_Yopal.pdf) | Earlier research identified maps on printed pp. 40–41; recheck original | Routes 2, 3, 13 and mapped stops; confirm whether existing or proposed |
-| ANNEX_A | [AnexosPT_Yopal.zip](https://www.fiducentral.com/images/files/2024/convocatorias/findeter/obras/AnexosPT_Yopal.zip) | Not inspected | Possible original PIMUR documents, Anexo 15 |
-| ANNEX_B | [Anexos PT Yopal.zip](https://www.fiducentral.com/images/files/2024/convocatorias/findeter/SDO-CO-AI-013-CW-RFB/Anexos%20PT%20Yopal.zip) | Not inspected | Procurement CO-AI-013-CW-RFB; possible duplicate annex set |
+| ANNEX_A | [AnexosPT_Yopal.zip](https://www.fiducentral.com/images/files/2024/convocatorias/findeter/obras/AnexosPT_Yopal.zip) | Inventory and selected annexes reviewed; operational report missing | Original PIMUR documents, Anexo 15 |
+| ANNEX_B | [Anexos PT Yopal.zip](https://www.fiducentral.com/images/files/2024/convocatorias/findeter/SDO-CO-AI-013-CW-RFB/Anexos%20PT%20Yopal.zip) | Inventory reviewed; near-duplicate by paths and sizes | Procurement CO-AI-013-CW-RFB |
 | DEC_099_2024 | [Decreto 099, 6 June 2024](https://www.lavozdeyopal.co/wp-content/uploads/2024/06/113185_decreto-no-099-de-6-junio-2024-se-fijan-tarifas-para-servicio-publico-transporte-automotor-colectivo-pasajeros.pdf) | Earlier indexed-text research; original needs verification | Fare, TUYO, route 8 survey |
 | RES_130_2010 | Resolución 130 de 2010 | Indirect reference; original pending | Joint operation TUYO |
 | PIMUR_2015 | PIMUR technical study | Archive lead only | Transport mapping and planning |
-| CONV_1004_2016 | Convenio 1004/2016 | Earlier reference; original pending | PIMUR preparation |
+| CONV_1004_2015 | Convenio 1004/2015 (SECOP I 15-4-3970516) | Procurement identified; operational report missing | PIMUR preparation |
 | DEC_267_2018 | Decreto 267, 26 October 2018 | Earlier reference; annexes pending | PIMUR adoption; reported 14 route maps with stops |
 | DEC_090_2019 | Decreto 090 de 2019 | Earlier reference; full text inaccessible | Route restructuring |
 | DEC_151_2019 | Decreto 151 de 2019 | Original pending | Fares |
@@ -37,3 +38,5 @@ ColMind Studio describes itself as an independent local initiative, not the tran
 `https://rutas-busetas-yopal.web.app/yopal/detalle_ruta?ruta=<route_id>`
 
 Enabled IDs: 2, 3, 6, 7, 8, 9, 10, 13. Only the route 2 MHT has been inspected. The other detail pages remain to be retrieved.
+
+See [frequency research](frequency-research.md), [annex review](pimur-annex-review.md) and [update procurement review](pimur-update-procurement.md). No raw Firebase data or individual location records are committed.
