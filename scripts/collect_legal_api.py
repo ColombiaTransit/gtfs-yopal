@@ -148,7 +148,7 @@ def main():
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     s = requests.Session()
-    s.headers.update({"User-Agent": UA, "Accept": "application/json"})
+    s.headers.update({"User-Agent": UA})
     records, pages, attr_shapes = {}, [], Counter()
     total, last_total, page, size = None, None, 0, args.page_size
     complete, error = False, None
@@ -164,7 +164,7 @@ def main():
             raise RuntimeError("Robots policy unavailable: HTTP " + str(robot.status_code))
         while len(pages) < args.max_pages:
             params = dict(PARAMS, page=page, pageSize=size)
-            r = s.get(ENDPOINT, params=params, timeout=45, allow_redirects=False)
+            r = s.get(ENDPOINT, params=params, headers={"Accept": "application/json"}, timeout=45, allow_redirects=False)
             log = {"page": page, "requested_size": size, "http_status": r.status_code}
             pages.append(log)
             if r.status_code == 400 and page == 0 and size != 6:
