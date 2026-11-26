@@ -1,15 +1,15 @@
-route_id,status_reported,operator_historical,operator_evidence_year,official_mapping_reported,source_id,legal_operating_status,legal_act_reference,gtfs_selection_status
-1,disabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
-2,enabled,Coocatrans Ltda.,2020,Findeter map page 40,COLMIND_INDEX,unverified,,pending_legal_reconciliation
-3,enabled,Cootrallanero Ltda.,2020,Findeter map page 40,COLMIND_INDEX,unverified,,pending_legal_reconciliation
-4,disabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
-5,disabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
-6,enabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
-7,enabled,Flota Sugamuxi S.A.,2020,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
-8,enabled,Coocatrans Ltda.,2024,Decreto 099 street description,COLMIND_INDEX,unverified,,pending_legal_reconciliation
-9,enabled,Llano Líneas,2020,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
-10,enabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
-11,disabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
-12,disabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
-13,enabled,,,Findeter map page 41,COLMIND_INDEX,unverified,,pending_legal_reconciliation
-14,disabled,,,,COLMIND_INDEX,unverified,,pending_legal_reconciliation
+route_id,status_reported,operator_historical,operator_evidence_year,official_mapping_reported,source_id,legal_operating_status,legal_act_reference,gtfs_selection_status,operator_authorized_2019,article_4_page,article_7_pages,evaluation_six_months,current_operation_verified
+1,disabled,,,,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,Cootrallanero Ltda.,5,5,false,false
+2,enabled,Coocatrans Ltda.,2020,Findeter map page 40,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,Coocatrans Ltda.,5,6,false,false
+3,enabled,Cootrallanero Ltda.,2020,Findeter map page 40,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,Cootrallanero Ltda.,5,7,false,false
+4,disabled,,,,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,Flota Sugamuxi S.A.,5,8,false,false
+5,disabled,,,,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,Flota Sugamuxi S.A.,5,8,false,false
+6,enabled,,,,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,Llano Líneas S.A.,5,9,true,false
+7,enabled,Flota Sugamuxi S.A.,2020,,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,Flota Sugamuxi S.A.,5,9–10,false,false
+8,enabled,Coocatrans Ltda.,2024,Decreto 099 street description,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,Coocatrans Ltda.,5,10,false,false
+9,enabled,Llano Líneas,2020,,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,Llano Líneas S.A.,5,11,false,false
+10,enabled,,,,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,Cootrallanero Ltda.,5,11,false,false
+11,disabled,,,,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,Coocatrans Ltda.,5,12,false,false
+12,disabled,,,,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,Llano Líneas S.A.,5,12–13,true,false
+13,enabled,,,Findeter map page 41,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,TUYO,5,13,false,false
+14,disabled,,,,COLMIND_INDEX,adopted_2019_later_changes_pending,Decreto 090/2019 arts. 4 and 7,legal_baseline_available_current_status_pending,TUYO,5,14,true,false

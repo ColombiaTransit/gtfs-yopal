@@ -1,0 +1,15 @@
+route_id,operator_as_assigned_2019,operation_model,article,page,evaluation_six_months,colmind_enabled,legal_baseline,current_operation_verified,geometry_available,official_origin,itinerary_pages
+1,Cootrallanero Ltda.,individual_company_within_TUYO,4,5,false,false,adopted_2019_later_changes_pending,false,true,Villa David,6
+2,Coocatrans Ltda.,individual_company_within_TUYO,4,5,false,true,adopted_2019_later_changes_pending,false,true,Ciudadela La Bendición,6–7
+3,Cootrallanero Ltda.,individual_company_within_TUYO,4,5,false,true,adopted_2019_later_changes_pending,false,true,Calle 59 con carrera 6a oeste,7
+4,Flota Sugamuxi S.A.,individual_company_within_TUYO,4,5,false,false,adopted_2019_later_changes_pending,false,true,Calle 60 con carrera 6a oeste,8
+5,Flota Sugamuxi S.A.,individual_company_within_TUYO,4,5,false,false,adopted_2019_later_changes_pending,false,true,Calle 60 con carrera 6a oeste,8–9
+6,Llano Líneas S.A.,individual_company_within_TUYO,4,5,true,true,adopted_2019_later_changes_pending,false,true,Diagonal 47 con carrera 16,9
+7,Flota Sugamuxi S.A.,individual_company_within_TUYO,4,5,false,true,adopted_2019_later_changes_pending,false,true,Villa David,10
+8,Coocatrans Ltda.,individual_company_within_TUYO,4,5,false,true,adopted_2019_later_changes_pending,false,true,Villa Lucía diagonal 44 con calle 31,10
+9,Llano Líneas S.A.,individual_company_within_TUYO,4,5,false,true,adopted_2019_later_changes_pending,false,true,Torres del Silencio,11
+10,Cootrallanero Ltda.,individual_company_within_TUYO,4,5,false,true,adopted_2019_later_changes_pending,false,true,Villa David,12
+11,Coocatrans Ltda.,individual_company_within_TUYO,4,5,false,false,adopted_2019_later_changes_pending,false,true,Villa David,12
+12,Llano Líneas S.A.,individual_company_within_TUYO,4,5,true,false,adopted_2019_later_changes_pending,false,true,Ciudadela La Bendición,13
+13,TUYO,joint_four_companies,4,5,false,true,adopted_2019_later_changes_pending,false,true,Ciudadela La Bendición,13
+14,TUYO,joint_four_companies,4,5,true,false,adopted_2019_later_changes_pending,false,false,La Guafilla,14

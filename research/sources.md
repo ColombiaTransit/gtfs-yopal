@@ -15,7 +15,7 @@ Research snapshot: 2026-11-26. "Snapshot verified" means the locally supplied MH
 | PIMUR_2015 | PIMUR technical study | Archive lead only | Transport mapping and planning |
 | CONV_1004_2015 | Convenio 1004/2015 (SECOP I 15-4-3970516) | Procurement identified; operational report missing | PIMUR preparation |
 | DEC_267_2018 | Decreto 267, 26 October 2018 | Earlier reference; annexes pending | PIMUR adoption; reported 14 route maps with stops |
-| DEC_090_2019 | Decreto 090 de 2019 | Earlier reference; full text inaccessible | Route restructuring |
+| DEC_090_2019 | [Official municipal PDF](https://yopalcasanare.micolombiadigital.gov.co/sites/yopalcasanare/content/files/000656/32793_decreto-090-por-el-cual-se-adopta-mediante-los-instrumentos.pdf) | Full 15-page act reviewed; 2019 legal baseline, subsequent changes pending | Articles 4, 7–9: all route assignments, schedules, itineraries and evaluation/stopping conditions |
 | DEC_151_2019 | Decreto 151 de 2019 | Original pending | Fares |
 | CONTRACT_0754_2019 | Contrato 0754/2019 | Earlier reference; original pending | Technical fare study |
 | DEC_269_2021 | Decreto 269 de 2021 | Original pending | Fares |
