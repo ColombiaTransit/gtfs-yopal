@@ -108,4 +108,5 @@ jobs:
             build/all-route-candidates.geojson
             build/circuit-reconstruction-report.json
             build/circuit-summary.csv
+            build/shared-unresolved-waypoints.json
           if-no-files-found: warn

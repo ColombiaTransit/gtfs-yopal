@@ -24,6 +24,8 @@ ALIASES = {
     "marginal de la selva": ["via monterrey - yopal", "via yopal - paz de ariporo"],
     "avenida la cultura": ["diagonal15"],
     "c37c": ["c37c"],
+    "k23": ["avenida carrera 23"],
+    "avenida carrera 23": ["k23"],
 }
 # Candidate intersection references explicitly written in compound landmark labels.
 LANDMARK_INTERSECTIONS = {
@@ -88,7 +90,7 @@ class Graph:
                         d=distance(self.nodes[a],self.nodes[b])
                         old=self.adj[a].get(b)
                         if old is None or d<old[0]:self.adj[a][b]=(d,i,names)
-            if t.get("name") and any(s in canon(t["name"]) for terms in LANDMARKS.values() for s in terms):
+            if t.get("name") and t.get("type") != "route" and not t.get("route") and not t.get("highway") and any(s in canon(t["name"]) for terms in LANDMARKS.values() for s in terms):
                 points=[self.nodes[i]] if typ=="node" and i in self.nodes else [self.nodes[n] for n in e.get("nodes",[]) if n in self.nodes]
                 if typ=="relation":
                     for m in e.get("members",[]):
@@ -148,8 +150,28 @@ class Graph:
                 for node in (n,m):cand[node]=min(cand.get(node,math.inf),d)
         return [(n,25+d,"near_named_intersection") for n,d in sorted(cand.items(),key=lambda x:(x[1],x[0]))[:MAX_LAYER]],set.union(*names)
 
+    def relation_origin(self):
+        """Use the common boundary of the two independently mapped route 9 directions."""
+        r1=self.obj.get(("relation",13195183),{})
+        r2=self.obj.get(("relation",13266086),{})
+        def members(r):
+            return [self.ways[m["ref"]] for m in r.get("members",[]) if m["type"]=="way" and m["ref"] in self.ways and m.get("role","") in ("","forward","backward")]
+        a,b=members(r1),members(r2)
+        if not a or not b:return []
+        opts=[]
+        for x in orientations(a[0]):
+            for y in orientations(b[-1]):
+                start,end=x[0],y[-1]
+                d=distance(self.nodes[start],self.nodes[end])
+                if d<=100:
+                    opts.append((start,20+d,"route_relation_boundary:13195183/13266086"))
+        return sorted(set(opts),key=lambda x:(x[1],x[0]))[:4]
+
     def candidates(self,label):
         key=canon(label)
+        if key=="torres del silencio (k3 oeste por c40)":
+            opts=self.relation_origin()
+            if opts:return opts,set()
         if key in LANDMARK_INTERSECTIONS:
             c,names=self.intersection(LANDMARK_INTERSECTIONS[key])
             if c:return [(n,p+15,"landmark_named_intersection") for n,p,_ in c],names
@@ -175,28 +197,41 @@ class Graph:
                 if violates:violations.append({"node":b,"relation":id,"restriction":kind})
         return violations
 
-    @lru_cache(maxsize=8192)
-    def paths(self,start,targets,preferred):
+    @lru_cache(maxsize=512)
+    def paths(self,start,targets,preferred,incoming=-1):
         # Bounded Dijkstra by road length; favor the street shared by adjacent
         # official intersections, while permitting legal one-way detours.
         targets=set(targets);preferred=set(preferred)
-        q=[(0.,start)];ds={start:0.};prev={};found={}
+        initial=(incoming,start)
+        q=[(0.,initial)];ds={initial:0.};prev={};found={}
         while q and targets:
-            cost,n=heapq.heappop(q)
-            if cost!=ds[n]:continue
+            cost,state=heapq.heappop(q)
+            if cost!=ds[state]:continue
             if cost>MAX_LEG:break
+            a,n=state
             if n in targets:
-                path=[n]
-                while path[-1]!=start:path.append(prev[path[-1]])
+                path=[n];cur=state
+                while cur!=initial:
+                    cur=prev[cur];path.append(cur[1])
                 path.reverse()
-                length=sum(self.adj[a][b][0] for a,b in zip(path,path[1:]))
+                length=sum(self.adj[x][y][0] for x,y in zip(path,path[1:]))
                 found[n]=(cost,length,path);targets.remove(n)
             for m,(d,wid,names) in self.adj.get(n,{}).items():
+                if a!=-1:
+                    w1=self.adj[a][n][1]
+                    prohibited=False
+                    for kind,to,_ in self.turns.get((n,w1),[]):
+                        if (kind=="no_u_turn" and w1==to and a==m) or (kind.startswith("no_") and kind!="no_u_turn" and wid==to) or (kind=="no_u_turn" and w1!=to and wid==to) or (kind.startswith("only_") and wid!=to):
+                            prohibited=True;break
+                    if prohibited:continue
                 mult=1. if not preferred or names&preferred else 1.8 if names else 1.25
-                c=cost+d*mult
-                if c<=MAX_LEG and c<ds.get(m,math.inf):
-                    ds[m]=c;prev[m]=n;heapq.heappush(q,(c,m))
+                # Permit terminal turns if necessary but strongly discourage gratuitous reversals.
+                c=cost+d*mult+(350 if m==a else 0)
+                nxt=(n,m)
+                if c<=MAX_LEG and c<ds.get(nxt,math.inf):
+                    ds[nxt]=c;prev[nxt]=state;heapq.heappush(q,(c,nxt))
         return found
+
 
 def reconstruct(graph,rows):
     rid=rows[0]["route_id"]
@@ -206,7 +241,9 @@ def reconstruct(graph,rows):
         # Cap layer, but keep all small exact-match sets; truncation is recorded.
         if c:
             layers.append((row,c[:MAX_LAYER],names,len(c)))
-        else:missing.append({"sequence":int(row["sequence"]),"waypoint":row["waypoint"]})
+        else:
+            parts=row["waypoint"].split("/")
+            missing.append({"sequence":int(row["sequence"]),"waypoint":row["waypoint"],"named_road_nodes":{p:len(set().union(*(graph.by_name.get(n,set()) for n in graph.names(p)))&graph.road_nodes) for p in parts} if len(parts)==2 else {}})
     if len(layers)<3:return None,{"route_id":rid,"status":"blocked_insufficient_anchors","unresolved":missing}
     first=layers[0];last=layers[-1]
     # Same legal origin must resolve to same node. If endpoint missing, close
@@ -228,7 +265,7 @@ def reconstruct(graph,rows):
             common=tuple(sorted(old[2]&names))
             new={}
             for n,(cost,path,selected) in states.items():
-                options=graph.paths(n,target,common)
+                options=graph.paths(n,target,common,path[-2] if len(path)>1 else -1)
                 for m,p,k in candidates:
                     if m not in options:continue
                     weighted,length,leg=options[m]
@@ -244,12 +281,14 @@ def reconstruct(graph,rows):
         for n,(cost,path,selected) in states.items():
             close_len=0
             if n!=start:
-                opts=graph.paths(n,(start,),())
+                opts=graph.paths(n,(start,),(),path[-2] if len(path)>1 else -1)
                 if start not in opts:continue
                 weighted,close_len,leg=opts[start]
                 cost+=weighted;path=path+leg[1:]
+            # Reject known forbidden turns at the loop seam too. Other candidates remain provisional.
+            if graph.turn_violations(path+path[1:2]):continue
             if best is None or cost<best[0]:best=(cost,path,selected,close_len)
-    if best is None:return None,{"route_id":rid,"status":"blocked_disconnected_anchors","unresolved":missing,"resolved_layers":len(layers)}
+    if best is None:return None,{"route_id":rid,"status":"blocked_disconnected_or_restricted_anchors","unresolved":missing,"resolved_layers":len(layers)}
     cost,path,selected,closing=best
     assert path[0]==path[-1] and all(b in graph.adj[a] for a,b in zip(path,path[1:]))
     coords=[graph.nodes[n] for n in path]
@@ -285,5 +324,11 @@ def main():
     with (a.out/"circuit-summary.csv").open("w",encoding="utf-8",newline="") as f:
         w=csv.DictWriter(f,fieldnames=fields,extrasaction="ignore");w.writeheader()
         for r in reports:w.writerow({**r,"unresolved_count":len(r.get("unresolved",[])),"turn_violation_count":len(r.get("known_turn_violations",[])),"approved":False})
-    print(json.dumps({"route_count":len(reports),"candidate_circuits":len(features),"approved":0,"road_nodes":len(graph.road_nodes),"named_landmarks":len(graph.landmarks),"turn_restriction_relations":len(graph.restrictions)}))
+    missing_groups=defaultdict(list)
+    for r in reports:
+        for m in r.get("unresolved",[]):
+            key=canon(m["waypoint"])
+            missing_groups[key].append({"route_id":r["route_id"],**m})
+    (a.out/"shared-unresolved-waypoints.json").write_text(json.dumps(dict(sorted(missing_groups.items(),key=lambda p:-len(p[1]))),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    print(json.dumps({"route_count":len(reports),"candidate_circuits":len(features),"approved":0,"road_nodes":len(graph.road_nodes),"named_landmarks":len(graph.landmarks),"turn_restriction_relations":len(graph.restrictions),"unresolved_occurrences":sum(len(v) for v in missing_groups.values()),"distinct_unresolved_labels":len(missing_groups)}))
 if __name__=="__main__":main()
