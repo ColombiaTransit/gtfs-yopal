@@ -1,0 +1,105 @@
+name: Yopal technical build
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'scripts/generate_gtfs.py'
+      - 'scripts/fetch_osm.py'
+      - 'scripts/resolve_waypoints.py'
+      - 'scripts/osm_route9.py'
+      - 'scripts/route_reviewed_anchors.py'
+      - 'requirements.txt'
+      - '.github/workflows/technical-build.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  plan-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Build canonical schedule plan
+        run: python scripts/generate_gtfs.py --mode plan
+      - name: Exercise complete GTFS generator (synthetic test only)
+        run: python scripts/generate_gtfs.py --mode fixture
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Download MobilityData canonical validator
+        run: |
+          curl --fail --silent --show-error --location https://api.github.com/repos/MobilityData/gtfs-validator/releases/latest -o validator-release.json
+          python - <<'PY'
+          import json, urllib.request
+          release=json.load(open('validator-release.json'))
+          assets=[a for a in release['assets'] if a['name'].endswith('.jar') and 'cli' in a['name'].lower()]
+          if not assets:
+              assets=[a for a in release['assets'] if a['name'].startswith('gtfs-validator') and a['name'].endswith('.jar') and not any(x in a['name'] for x in ('sources','javadoc','gui'))]
+          assert len(assets)==1, [a['name'] for a in assets]
+          urllib.request.urlretrieve(assets[0]['browser_download_url'],'validator.jar')
+          PY
+      - name: Validate synthetic fixture, not traveler data
+        run: java -jar validator.jar -i build/gtfs-yopal-SYNTHETIC-TEST.zip -o build/fixture-validation
+      - name: Build and validate reviewed draft when all approved patterns exist
+        if: ${{ hashFiles('data/approved-patterns.json') != '' }}
+        run: |
+          python scripts/generate_gtfs.py --mode build
+          java -jar validator.jar -i build/gtfs-yopal-research-draft.zip -o build/draft-validation
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: yopal-schedule-plan-and-validation
+          path: |
+            build/schedule-plan/
+            build/readiness.json
+            build/fixture-validation/
+            build/gtfs-yopal-research-draft.zip
+            build/draft-validation/
+          if-no-files-found: warn
+  geometry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Fetch private Overpass
+        env:
+          API_OVERPASS: ${{ vars.API_OVERPASS }}
+          CF_ACCESS_CLIENT_ID: ${{ secrets.CF_ACCESS_CLIENT_ID }}
+          CF_ACCESS_CLIENT_SECRET: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}
+        run: |
+          if [ -n "$API_OVERPASS" ]; then echo "::add-mask::$API_OVERPASS"; fi
+          python scripts/fetch_osm.py
+      - name: Resolve independent waypoint candidates
+        run: python scripts/resolve_waypoints.py --osm build/osm.json
+      - name: Route 9 OSM relation circuit candidate
+        run: python scripts/osm_route9.py --osm build/osm.json
+      - name: Route reviewed anchor chains (if supplied)
+        env:
+          GRAPHHOPPER_URL: ${{ vars.GRAPHHOPPER_URL }}
+          CF_ACCESS_CLIENT_ID: ${{ secrets.CF_ACCESS_CLIENT_ID }}
+          CF_ACCESS_CLIENT_SECRET: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}
+        run: |
+          if [ -n "$GRAPHHOPPER_URL" ]; then echo "::add-mask::$GRAPHHOPPER_URL"; fi
+          shopt -s nullglob
+          for file in data/reviewed-anchors/*.json; do
+            python scripts/route_reviewed_anchors.py --anchors "$file" --out "build/$(basename "$file" .json)-candidate.geojson"
+          done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: yopal-geometry-candidates
+          path: |
+            build/waypoint-matches.json
+            build/waypoint-summary.json
+            build/*-candidate.geojson
+            build/route9-shape-report.json
+          if-no-files-found: warn
