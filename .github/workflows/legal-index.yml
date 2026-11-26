@@ -1,30 +1,41 @@
-name: Municipal legal index probe
+name: Municipal legal index
 on:
   push:
     paths:
-      - 'scripts/collect_legal_index.py'
-      - 'scripts/diagnose_legal_index.py'
+      - 'scripts/collect_legal_api.py'
       - '.github/workflows/legal-index.yml'
   workflow_dispatch:
+    inputs:
+      page_size:
+        description: Requested page size (1-100)
+        type: number
+        default: 100
+      max_pages:
+        description: Maximum API pages (1-1000)
+        type: number
+        default: 1000
 permissions:
   contents: read
 concurrency:
   group: legal-index
   cancel-in-progress: false
 jobs:
-  discover:
+  collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: |
-          pip install requests==2.32.5 beautifulsoup4==4.14.3 playwright
-          python -m playwright install --with-deps chromium
-      - name: Inspect actual municipal archive and list API
-        run: python scripts/diagnose_legal_index.py
+      - run: pip install requests==2.32.5 beautifulsoup4==4.14.3
+      - name: Test metadata parser
+        run: python scripts/collect_legal_api.py --self-test
+      - name: Collect public legal metadata
+        env:
+          PAGE_SIZE: ${{ inputs.page_size || '100' }}
+          MAX_PAGES: ${{ inputs.max_pages || '1000' }}
+        run: python scripts/collect_legal_api.py --page-size "$PAGE_SIZE" --max-pages "$MAX_PAGES"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
