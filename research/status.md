@@ -72,3 +72,7 @@ The full municipal Decreto 090/2019 is now recovered; see [review](decreto_090_2
 ## Post-2019 amendment search
 
 See [post-2019-amendments-review.md](post-2019-amendments-review.md). No later permanent route or headway modification found in targeted indexed search; municipal archive index was not readable. April 2026 reporting describes 14 authorized and 9 operating routes; route 14 has historical launch evidence circa February 2020. No evaluation acts found for 6,12,14. Retain all 14 legal-baseline candidates and official schedules unchanged; actual operation remains separate. New leads: enforcement procedure MI8-PR18 and municipal Movilidad Inteligente TUYO application.
+
+## Consolidation of collected acts
+
+See [legal-act-consolidation.md](legal-act-consolidation.md), [chronology](legal-act-chronology.csv) and [route baseline](legal-route-baseline.csv). All 42 official service windows remain unchanged. Decreto 090/2019 is the latest verified route-specific baseline in the collected material; no current service or absence of missing acts is asserted. Targeted follow-up before any municipal archive scrape. Decreto 152/2019 urban fare transcription recovered; 151/2019 remains unverified.

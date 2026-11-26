@@ -16,7 +16,8 @@ Research snapshot: 2026-11-26. "Snapshot verified" means the locally supplied MH
 | CONV_1004_2015 | Convenio 1004/2015 (SECOP I 15-4-3970516) | Procurement identified; operational report missing | PIMUR preparation |
 | DEC_267_2018 | Decreto 267, 26 October 2018 | Earlier reference; annexes pending | PIMUR adoption; reported 14 route maps with stops |
 | DEC_090_2019 | [Official municipal PDF](https://yopalcasanare.micolombiadigital.gov.co/sites/yopalcasanare/content/files/000656/32793_decreto-090-por-el-cual-se-adopta-mediante-los-instrumentos.pdf) | Full 15-page act reviewed; 2019 legal baseline, subsequent changes pending | Articles 4, 7–9: all route assignments, schedules, itineraries and evaluation/stopping conditions |
-| DEC_151_2019 | Decreto 151 de 2019 | Original pending | Fares |
+| DEC_151_2019 | Decreto 151 de 2019 | Unverified earlier lead; number and scope pending | Possible fare reference; do not apply |
+| DEC_152_2019 | [Decreto 152, 5 July 2019](https://fr.scribd.com/document/563880848/Decreto-152-del-05-07-2019-Tarifas-Colectivo-Municipal-Urbano) | Third-party transcription reviewed; official copy pending | COP 1,600 for 14 urban routes; no route or headway amendment in visible operative articles |
 | CONTRACT_0754_2019 | Contrato 0754/2019 | Earlier reference; original pending | Technical fare study |
 | DEC_269_2021 | Decreto 269 de 2021 | Original pending | Fares |
 | DEC_071_2023 | Decreto 071 de 2023 | Original pending | Fares |
