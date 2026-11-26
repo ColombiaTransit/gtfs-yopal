@@ -1,0 +1,10 @@
+route,shape,kind,from_m,to_m,sample_span_m,max_road_distance_m,osm_way_ids
+1,llegada,no_heading_compatible_35m,3460.0,3700.0,240,6.1,
+1,llegada,possible_wrong_way,3460.0,3680.0,220,6.1,220972120
+3,salida,no_heading_compatible_35m,7680.0,7880.0,200,1.7,
+3,salida,possible_wrong_way,7680.0,7880.0,200,1.7,102474998;220675141
+5,llegada,no_heading_compatible_35m,3800.0,4580.0,780,2.9,
+5,llegada,possible_wrong_way,3780.0,4360.0,580,2.7,85172998;102475030
+5,llegada,possible_wrong_way,4380.0,4580.0,200,2.9,85172998
+12,llegada,off_road_35m,7980.0,8020.0,40,39.2,
+12,llegada,no_heading_compatible_35m,7980.0,8020.0,40,39.2,
