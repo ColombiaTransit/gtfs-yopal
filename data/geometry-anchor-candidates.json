@@ -1,0 +1,168 @@
+{
+  "1": {
+    "villa david": {
+      "nodes": [
+        {
+          "id": 7768522698,
+          "coordinate": [
+            -72.3665931,
+            5.3230639
+          ]
+        },
+        {
+          "id": 7768522705,
+          "coordinate": [
+            -72.3666613,
+            5.3231062
+          ]
+        }
+      ],
+      "evidence": "OSM residential junctions; independent reported origin proximity checked locally, 4–18 m; not verified terminal or boarding location"
+    }
+  },
+  "2": {
+    "ciudadela la bendicion": {
+      "nodes": [
+        {
+          "id": 4112771077,
+          "coordinate": [
+            -72.4209126,
+            5.2905054
+          ]
+        }
+      ],
+      "evidence": "OSM residential junction; reported origin proximity approximately 6 m; not verified boarding location"
+    }
+  },
+  "6": {
+    "d47/k16": {
+      "nodes": [
+        {
+          "id": 7766423226,
+          "coordinate": [
+            -72.3976309,
+            5.3108473
+          ]
+        },
+        {
+          "id": 9339876401,
+          "coordinate": [
+            -72.3976485,
+            5.311035
+          ]
+        }
+      ],
+      "evidence": "OSM unnamed residential road junctions near reported R6 origin (12–16 m); D47 street name not mapped; candidate only"
+    },
+    "k16/d47": {
+      "nodes": [
+        {
+          "id": 7766423226,
+          "coordinate": [
+            -72.3976309,
+            5.3108473
+          ]
+        },
+        {
+          "id": 9339876401,
+          "coordinate": [
+            -72.3976485,
+            5.311035
+          ]
+        }
+      ],
+      "evidence": "OSM unnamed residential road junctions near reported R6 origin (12–16 m); D47 street name not mapped; candidate only"
+    }
+  },
+  "7": {
+    "villa david": {
+      "nodes": [
+        {
+          "id": 7768522698,
+          "coordinate": [
+            -72.3665931,
+            5.3230639
+          ]
+        },
+        {
+          "id": 7768522705,
+          "coordinate": [
+            -72.3666613,
+            5.3231062
+          ]
+        }
+      ],
+      "evidence": "OSM residential junctions; independent reported origin proximity checked locally, 4–18 m; not verified terminal or boarding location"
+    }
+  },
+  "10": {
+    "villa david": {
+      "nodes": [
+        {
+          "id": 7768522698,
+          "coordinate": [
+            -72.3665931,
+            5.3230639
+          ]
+        },
+        {
+          "id": 7768522705,
+          "coordinate": [
+            -72.3666613,
+            5.3231062
+          ]
+        }
+      ],
+      "evidence": "OSM residential junctions; independent reported origin proximity checked locally, 4–18 m; not verified terminal or boarding location"
+    }
+  },
+  "11": {
+    "villa david": {
+      "nodes": [
+        {
+          "id": 7768528385,
+          "coordinate": [
+            -72.3630863,
+            5.3283086
+          ]
+        },
+        {
+          "id": 7768505968,
+          "coordinate": [
+            -72.3634166,
+            5.3285156
+          ]
+        }
+      ],
+      "evidence": "OSM residential roads in different part of Villa David; 51–53 m from independent reported origin; weaker route-specific hypothesis, not a verified terminal"
+    }
+  },
+  "12": {
+    "ciudadela la bendicion": {
+      "nodes": [
+        {
+          "id": 3913934156,
+          "coordinate": [
+            -72.4199046,
+            5.2893275
+          ]
+        }
+      ],
+      "evidence": "OSM residential junction; independent reported origin approximately 5 m away; distinct from R2/R13; candidate only"
+    }
+  },
+  "13": {
+    "ciudadela la bendicion": {
+      "nodes": [
+        {
+          "id": 4112771077,
+          "coordinate": [
+            -72.4209126,
+            5.2905054
+          ]
+        }
+      ],
+      "evidence": "OSM residential junction; reported origin proximity approximately 6 m; not verified boarding location"
+    }
+  }
+}

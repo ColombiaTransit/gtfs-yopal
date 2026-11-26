@@ -58,6 +58,13 @@ MAX_NEAR = 65
 MAX_LANDMARK_SNAP = 120
 MAX_LAYER = 20
 MAX_LEG = 18000
+# Only pairs checked against the existing independent OSM snapshot. Their
+# nearest named fragments are 87–123 m apart. These are weak topology
+# hypotheses, not exact intersections.
+EXTENDED_PAIRS = {frozenset(x.split("/")) for x in (
+    "k29/d9", "c30/t5", "t7/c30", "k30/c28", "k11a/c41", "c34/k31"
+)}
+OVERRIDES = ROOT / "data/geometry-anchor-candidates.json"
 
 def canon(s):
     s = norm(s)
@@ -69,6 +76,7 @@ def grid(p):return (math.floor(p[0]/STEP),math.floor(p[1]/STEP))
 class Graph:
     def __init__(self,raw):
         self.obj=objects(raw)
+        self.overrides=json.loads(OVERRIDES.read_text(encoding="utf-8")) if OVERRIDES.exists() else {}
         self.nodes={i:(e["lon"],e["lat"]) for (typ,i),e in self.obj.items() if typ=="node" and "lat" in e}
         self.adj=defaultdict(dict)
         self.by_name=defaultdict(set)
@@ -148,6 +156,17 @@ class Graph:
             for d,m in self.near(self.nodes[n],MAX_NEAR):
                 if m not in big:continue
                 for node in (n,m):cand[node]=min(cand.get(node,math.inf),d)
+        if not cand and frozenset(map(canon,parts)) in EXTENDED_PAIRS:
+            # Nearby roads are not automatically connected. Demand a real
+            # directed path between the fragments, in either direction.
+            for n in small:
+                for d,m in self.near(self.nodes[n],150):
+                    if m not in big:continue
+                    p=self.paths(n,(m,),())
+                    q=self.paths(m,(n,),())
+                    if not any(x and next(iter(x.values()))[1]<=250 for x in (p,q)):continue
+                    for node in (n,m):cand[node]=min(cand.get(node,math.inf),d)
+            return [(n,150+d,"extended_named_fragments_hypothesis") for n,d in sorted(cand.items(),key=lambda x:(x[1],x[0]))[:MAX_LAYER]],set.union(*names)
         return [(n,25+d,"near_named_intersection") for n,d in sorted(cand.items(),key=lambda x:(x[1],x[0]))[:MAX_LAYER]],set.union(*names)
 
     def relation_origin(self):
@@ -167,8 +186,17 @@ class Graph:
                     opts.append((start,20+d,"route_relation_boundary:13195183/13266086"))
         return sorted(set(opts),key=lambda x:(x[1],x[0]))[:4]
 
-    def candidates(self,label):
+    def candidates(self,label,route_id=None):
         key=canon(label)
+        override=self.overrides.get(str(route_id),{}).get(key)
+        if override:
+            candidates=[]
+            for i,item in enumerate(override["nodes"]):
+                node=item["id"]
+                # Require the same independent OSM node in the current graph.
+                if node in self.road_nodes and distance(self.nodes[node],item["coordinate"])<=15:
+                    candidates.append((node,100+20*i,"explicit_osm_origin_hypothesis"))
+            if candidates:return candidates,set()
         if key=="torres del silencio (k3 oeste por c40)":
             opts=self.relation_origin()
             if opts:return opts,set()
@@ -237,7 +265,7 @@ def reconstruct(graph,rows):
     rid=rows[0]["route_id"]
     layers=[];missing=[]
     for row in rows:
-        c,names=graph.candidates(row["waypoint"])
+        c,names=graph.candidates(row["waypoint"],rid)
         # Cap layer, but keep all small exact-match sets; truncation is recorded.
         if c:
             layers.append((row,c[:MAX_LAYER],names,len(c)))
@@ -302,7 +330,9 @@ def reconstruct(graph,rows):
     endpoints_resolved=int(first[0]["sequence"])==1 and int(last[0]["sequence"])==int(rows[-1]["sequence"])
     gaps=[{"from_sequence":a["sequence"],"to_sequence":b["sequence"],"leg_m":b["leg_m"]} for a,b in zip(anchors,anchors[1:]) if b["sequence"]-a["sequence"]>1]
     status="candidate_all_waypoints_linked" if not missing and endpoints_resolved and closing<1 else "candidate_partial_waypoint_coverage"
-    report={"route_id":rid,"status":status,"approved":False,"length_m":round(length,1),"point_count":len(path),"waypoints":len(rows),"resolved":len(anchors),"unresolved":missing,"endpoints_resolved":endpoints_resolved,"inferred_closing_m":round(closing,1),"skipped_waypoint_connectors":gaps,"long_legs":[a for a in anchors if a["leg_m"]>1500],"immediate_reversals":reversals,"repeated_directed_edge_m":round(repeated,1),"known_turn_violations":turns,"unsupported_restrictions_in_export":graph.unsupported_restrictions,"anchors":anchors,"source":"Decreto 090/2019 ordered candidate waypoints / OpenStreetMap contributors","conditional_access_checked":False}
+    weak=sum(a["match"] in ("explicit_osm_origin_hypothesis","extended_named_fragments_hypothesis") for a in anchors)
+    if weak and status=="candidate_all_waypoints_linked":status="candidate_all_waypoints_linked_with_hypotheses"
+    report={"route_id":rid,"status":status,"weak_anchor_hypotheses":weak,"approved":False,"length_m":round(length,1),"point_count":len(path),"waypoints":len(rows),"resolved":len(anchors),"unresolved":missing,"endpoints_resolved":endpoints_resolved,"inferred_closing_m":round(closing,1),"skipped_waypoint_connectors":gaps,"long_legs":[a for a in anchors if a["leg_m"]>1500],"immediate_reversals":reversals,"repeated_directed_edge_m":round(repeated,1),"known_turn_violations":turns,"unsupported_restrictions_in_export":graph.unsupported_restrictions,"anchors":anchors,"source":"Decreto 090/2019 ordered candidate waypoints / OpenStreetMap contributors","conditional_access_checked":False}
     return {"type":"Feature","properties":{k:v for k,v in report.items() if k not in ("anchors","unresolved","skipped_waypoint_connectors","long_legs","known_turn_violations")},"geometry":{"type":"LineString","coordinates":coords}},report
 
 def main():
