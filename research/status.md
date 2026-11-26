@@ -8,6 +8,12 @@ The ColMind snapshot lists route numbers 1–14, of which 2, 3, 6, 7, 8, 9, 10 a
 
 Operating windows and headways are transcribed in service_windows.csv (24 day-type records; 21 with service and three without). Local time is America/Bogota. The website groups Sundays and public holidays. It does not establish whether headways are per direction, per full loop, or for the corridor as a whole, or whether the end time is inclusive. No peak/off-peak split is shown. Route 2 detail confirms its route-level values and says departure estimates may vary with traffic.
 
+## Route selection policy (user decision, 2026-11-26)
+
+Applicable municipal operating acts govern route inclusion and authorized headways. Apply acts chronologically, retaining the latest applicable provision unless superseded, withdrawn or expired. A ColMind enabled=false flag alone is never grounds to exclude a legally authorized route; enabled=true alone does not prove authorization. Where a valid act establishes operation, include the route even if ColMind disables it, subject to obtaining enough data to generate a valid feed. Use ColMind only to fill missing timetable/geometry information provisionally. Keep source status separate from legal status. A planning proposal is not an operating authorization. Verify explicit suspensions, withdrawals and expiry; document contradictory operational evidence separately.
+
+All 14 route IDs remain in scope. Route-level authorization evidence is still incomplete, so the six ColMind-disabled routes are not yet classified as legally active or inactive. See routes.csv for separate source and legal status fields.
+
 ## Operators and fares (earlier research, pending primary verification)
 
 TUYO — Transporte Urbano de Yopal — reportedly coordinates Coocatrans Ltda., Cootrallanero Ltda., Llano Líneas and Flota Sugamuxi S.A. under Resolución 130/2010. Historical assignments are preserved in routes.csv, not claimed as current or exclusive.
@@ -22,18 +28,18 @@ The route 2 snapshot shows Leaflet/OpenStreetMap and a legend with Recorrido de 
 
 Findeter maps reportedly show routes 2 and 3 on printed p. 40 and route 13 on p. 41, with stop symbols. Verify map date, planned vs operational stops, and geometry before use. Decreto 267/2018 reportedly references 14 route maps. The 2024 route 8 survey reportedly describes a round trip starting/ending in Villa Lucía with observed travel times roughly 60–75 minutes; original tables still need review.
 
-All eight active routes have descriptive itineraries in the local ColMind index snapshot. The later user-supplied Firebase export contains both original geometry branches for all eight enabled routes. Geometry quality and verified stop coordinates remain open. Do not create fictitious stops. Consider continuous pickup/dropoff only if actual boarding policy supports it. Use GraphHopper for geometry/travel time only where needed after checking original evidence.
+All eight ColMind-enabled routes have descriptive itineraries in the local ColMind index snapshot. The later user-supplied Firebase export contains both original geometry branches for all eight enabled routes. Geometry quality and verified stop coordinates remain open. Do not create fictitious stops. Consider continuous pickup/dropoff only if actual boarding policy supports it. Use GraphHopper for geometry/travel time only where needed after checking original evidence.
 
 ## Frequency research update (2026-11-26)
 
-See [frequency-research.md](frequency-research.md): 24/24 day-type records match Firebase, but 0/8 active routes have independently verified numerical legal headways. User reports estimateTime=false. The independent source is provisional. Both Findeter archive inventories and selected annexes have been reviewed; the PIMUR operational report remains missing. Further administrative contract-document review is parked pending a direct technical lead.
+See [frequency-research.md](frequency-research.md): 24/24 day-type records match Firebase, but 0/8 ColMind-enabled routes have independently verified numerical legal headways. User reports estimateTime=false. The independent source is provisional. Both Findeter archive inventories and selected annexes have been reviewed; the PIMUR operational report remains missing. Further administrative contract-document review is parked pending a direct technical lead.
 
 ## Work list
 
 - [x] Obtain local file inventories for both Findeter annex ZIPs (each approximately 400 MB according to user).
 - [x] Compare file lists and, if needed, SHA-256 hashes; avoid duplicate downloads and raw archive commits.
 - [ ] Locate Anexo 15 / PIMUR and nested archives. Prioritize GIS layers, route maps, stops, frequencies, dispatch windows, travel times and operator assignments.
-- [ ] Recover Decreto 090/2019 and Decreto 267/2018 with annexes; check later amendments and PIMUR update.
+- [ ] Recover Decreto 090/2019 and Decreto 267/2018 with annexes; check later amendments and PIMUR update. Reconcile every route against applicable operating acts, prioritizing IDs 1, 4, 5, 11, 12, 14; never filter solely on ColMind enabled.
 - [ ] Obtain original 2026 fare decree and verify effective date and scope.
 - [ ] Recover exact references for historical operator assignments and municipal statement; identify ninth operational route and verify current assignments.
 - [ ] Check official stop inventory and planned vs existing stop status.
