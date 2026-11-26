@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'scripts/collect_legal_index.py'
+      - 'scripts/diagnose_legal_index.py'
       - '.github/workflows/legal-index.yml'
   workflow_dispatch:
     inputs:
@@ -37,6 +38,14 @@ jobs:
           args=(--max-pages "$MAX_PAGES")
           if [ -n "$SEED" ]; then args+=(--seed "$SEED"); fi
           python scripts/collect_legal_index.py "${args[@]}"
+      - name: Install browser diagnostics
+        if: failure()
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Diagnose rendered municipal index
+        if: failure()
+        run: python scripts/diagnose_legal_index.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
