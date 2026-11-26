@@ -1,0 +1,3 @@
+issue_id,route_id,shape,issue,status,priority,source,required_action
+YOP-SHAPE-003,3,salida,Possible wrong-way Calle 25 approximately 200 m,open,high,research/shape-validation/yopal_shape_repair_candidates.csv,Verify actual traffic direction and bus exemptions before accepting 533.3 m alternative to 280 m anchor section
+YOP-LEGAL-003,3,both,Unauthorized terminal relocation reported July 2024,open,high,https://prensalibrecasanare.com/yopal/52190-cambio-no-autorizado-de-ruta-de-transporte-pblico-en-yopal-generu-controversia.html,Verify subsequent approval and actual dispatch origin independently from Calle 25 issue

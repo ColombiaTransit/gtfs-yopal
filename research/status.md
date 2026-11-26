@@ -60,3 +60,7 @@ Search for PIMUR, rutas, paraderos, transporte público, frecuencias, despachos,
 ## Parked source
 
 TransOriente / LogiRuta is parked: the tested Logirastreo city service listed Armenia, La Tebaida and Barranquilla, but both distinct route queries returned empty FeatureCollections. It is not a Yopal data source.
+
+## Follow-up — route status and geometry
+
+See [route-status-reconciliation.md](route-status-reconciliation.md) for the newly located restricted Decreto 090/2019 record, historical acts, 14-route status matrix and frequency evidence. Prioritize routes 11 and 12; the ninth current route remains unidentified. Stop and operator research stages completed with explicit limitations; see [historical-stops/stop-research-closure.md](historical-stops/stop-research-closure.md) and [operator-research.md](operator-research.md). Shape screening completed for all 26 available shapes; see [shape-validation/README.md](shape-validation/README.md). Preserve route 3 correction and terminal verification in [correction-register.csv](correction-register.csv). No route activation changes or current legal headways established.

@@ -1,0 +1,15 @@
+route_id,colmind_enabled,individual_route_evidence,frequency_evidence,legal_status,current_operation_independently_verified,research_disposition
+1,false,OSM relation 13266149,OSM 7 min undated,unverified,false,priority_review
+2,true,2020 reopening; 2023 Findeter,ColMind,unverified,false,provisional_enabled
+3,true,2017 pilot; 2020 reopening; 2023 Findeter; 2024 route dispute,ColMind,unverified,false,provisional_enabled
+4,false,2017 temporary pilot,none,unverified,false,pending_legal_reconciliation
+5,false,2017 temporary pilot,none,unverified,false,pending_legal_reconciliation
+6,true,no separate current legal act recovered,ColMind,unverified,false,provisional_enabled
+7,true,2020 reopening,ColMind,unverified,false,provisional_enabled
+8,true,2020 reopening; 2024 official study,ColMind; official study 8 min,unverified,false,provisional_enabled
+9,true,2020 reopening; OSM,ColMind; OSM 7 min,unverified,false,provisional_enabled
+10,true,no separate current legal act recovered,ColMind,unverified,false,provisional_enabled
+11,false,disabled source retains schedule,Firebase disabled record 15/20 min,unverified,false,priority_review
+12,false,2017 pilot; 2019 road maintenance; 2020 reopening,none,unverified,false,priority_review
+13,true,2013 incorporation; 2023 Findeter,ColMind; historic 5-6 min,unverified,false,provisional_enabled
+14,false,no individual act recovered,none,unverified,false,pending_legal_reconciliation

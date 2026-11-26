@@ -1,0 +1,13 @@
+route_id,day_type,start_local,end_local,headway_min_low,headway_min_high,evidence_date,source_type,source_url,applicability
+13,unspecified,,,5,6,2013-06-18,reported_historical_municipal_change,https://test.prensalibrecasanare.com/kriminal/7203-ruta-de-transporte-colectivo-a-8220llano-lindo8221-en-yopal-ahora-es-urbana.html,historical_before_2019_restructuring
+network,unspecified,,,8,8,2018-07-19,reported_network_dispatch,https://lareporteria.com/2018/07/19/en-yopal-abren-nuevas-rutas-de-transporte-colectivo/,not_route_specific
+8,unspecified,,,8,8,2024-04-10/2024-04-12,municipal_field_study,https://www.lavozdeyopal.co/wp-content/uploads/2024/06/113185_decreto-no-099-de-6-junio-2024-se-fijan-tarifas-para-servicio-publico-transporte-automotor-colectivo-pasajeros.pdf,observed_not_legal_headway
+1,weekday,05:15,19:00,7,7,undated,osm_tag,https://www.openstreetmap.org/relation/13266149,disabled_route_unverified
+1,saturday,05:40,19:00,7,7,undated,osm_tag,https://www.openstreetmap.org/relation/13266149,disabled_route_unverified
+1,sunday,06:00,19:00,7,7,undated,osm_tag,https://www.openstreetmap.org/relation/13266149,disabled_route_unverified
+9,weekday,05:15,19:00,7,7,undated,osm_tag,https://www.openstreetmap.org/relation/13195183,conflicts_with_colmind
+9,saturday,05:40,19:00,7,7,undated,osm_tag,https://www.openstreetmap.org/relation/13195183,conflicts_with_colmind
+9,sunday,06:00,19:00,7,7,undated,osm_tag,https://www.openstreetmap.org/relation/13195183,conflicts_with_colmind
+11,weekday,05:20,17:40,15,15,undated,disabled_firebase_record,https://rutas-busetas-yopal-default-rtdb.firebaseio.com/features/0/rutas.json,not_evidence_of_current_service
+11,saturday,06:00,18:00,20,20,undated,disabled_firebase_record,https://rutas-busetas-yopal-default-rtdb.firebaseio.com/features/0/rutas.json,not_evidence_of_current_service
+11,sunday_holiday,,,,,undated,disabled_firebase_record,https://rutas-busetas-yopal-default-rtdb.firebaseio.com/features/0/rutas.json,no_service_reported
