@@ -44,3 +44,7 @@ The following Git blob SHA-1 hashes identify the ten archived research files. CS
 - `891bde9504dc3717ff011d54b92de7fa6a16a9f5`  `yopal_stop_cross_route_candidates.csv`
 - `51d336f6a4a6d51234e05637c60316161a488be2`  `yopal_stop_side_review.csv`
 - `81a9f412a4127eeb5e9201b3133bd412a5126634`  `yopal_osm_route_comparison.csv`
+
+## Closure
+
+See [stop-research-closure.md](stop-research-closure.md) for per-direction coverage, large gaps, shape null-slot checks and recommended provisional boarding model. No current fixed-stop inventory or continuous-boarding policy is verified. The research stage is complete with these explicit limitations.
