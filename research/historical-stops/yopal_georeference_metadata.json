@@ -1,0 +1,65 @@
+{
+  "source": "Findeter 2023 MIB Yopal, figures 30\u201332, original maps July 2017",
+  "reference": "OpenStreetMap contributors, ODbL, export timestamp 2026-11-26T08:22:51Z",
+  "crs": "EPSG:32618",
+  "utm_origin": [
+    788174.8117431145,
+    588643.3366683284
+  ],
+  "utm_local_to_route2_pixel": {
+    "offset": [
+      666.5578891900926,
+      503.6590541313477
+    ],
+    "matrix_row_vector": [
+      [
+        0.1382188454573452,
+        0.07075359748353094
+      ],
+      [
+        0.07080469037134662,
+        -0.13812619959787753
+      ]
+    ]
+  },
+  "map_pixel_to_route2_pixel": {
+    "2": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "3": [
+      [
+        1.1276500793030095,
+        4.657776015261143e-05,
+        223.75720308774484
+      ],
+      [
+        4.6474393748383144e-05,
+        1.1361049660240599,
+        22.958471507430872
+      ]
+    ],
+    "13": [
+      [
+        1.086006992085581,
+        4.6981447663968696e-05,
+        42.04568511548535
+      ],
+      [
+        1.8128409936139643e-05,
+        1.082298191055918,
+        26.86166714486025
+      ]
+    ]
+  },
+  "method": "SIFT affine alignment of historic maps; multi-scale optimization of OSM street-centerline samples against historic map ink; visual component review; approximate split of three merged symbols in route 3",
+  "limitations": "No independent surveyed ground control RMSE; not verified current boarding locations or directions; raw icon centers, not snapped. Null coordinates removed from Firebase shapes; straight connection across missing vertices may distort distance. Do not publish as confirmed stops. OSM-derived data subject to ODbL; source map reuse rights not assessed."
+}

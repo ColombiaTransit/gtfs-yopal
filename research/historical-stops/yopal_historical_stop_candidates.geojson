@@ -1,0 +1,3869 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.402101,
+          5.347828
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-001",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 850.5,
+        "pixel_y": 61.07,
+        "distance_llegada_m": 24.9,
+        "distance_salida_m": 94.1,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 24.9,
+        "nearest_osm_road": "Calle 8",
+        "distance_osm_road_m": 25.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.402882,
+          5.34641
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-002",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 827.48,
+        "pixel_y": 76.71,
+        "distance_llegada_m": 41.8,
+        "distance_salida_m": 38.3,
+        "nearest_shape": "salida",
+        "distance_shape_m": 38.3,
+        "nearest_osm_road": "Via Yopal - Paz de Ariporo",
+        "distance_osm_road_m": 38.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.399929,
+          5.347137
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-003",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 878.5,
+        "pixel_y": 88.56,
+        "distance_llegada_m": 118.1,
+        "distance_salida_m": 14.5,
+        "nearest_shape": "salida",
+        "distance_shape_m": 14.5,
+        "nearest_osm_road": "Carrera 20",
+        "distance_osm_road_m": 15.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.401057,
+          5.346392
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-004",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 855.39,
+        "pixel_y": 91.18,
+        "distance_llegada_m": 30.8,
+        "distance_salida_m": 100.8,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 30.8,
+        "nearest_osm_road": "Calle 10",
+        "distance_osm_road_m": 21.4,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.406465,
+          5.342658
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-005",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 743.3,
+        "pixel_y": 106.3,
+        "distance_llegada_m": 79.8,
+        "distance_salida_m": 50.1,
+        "nearest_shape": "salida",
+        "distance_shape_m": 50.1,
+        "nearest_osm_road": "Vía a la Virgen",
+        "distance_osm_road_m": 47.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_50_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.403632,
+          5.343001
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-006",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 789.48,
+        "pixel_y": 123.1,
+        "distance_llegada_m": 30.0,
+        "distance_salida_m": 35.4,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 30.0,
+        "nearest_osm_road": "Calle 13",
+        "distance_osm_road_m": 19.7,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.406668,
+          5.341345
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-007",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 729.97,
+        "pixel_y": 124.82,
+        "distance_llegada_m": 65.1,
+        "distance_salida_m": 89.4,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 65.1,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 11.5,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_50_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.398732,
+          5.344853
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-008",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 879.15,
+        "pixel_y": 132.85,
+        "distance_llegada_m": 110.9,
+        "distance_salida_m": 13.3,
+        "nearest_shape": "salida",
+        "distance_shape_m": 13.3,
+        "nearest_osm_road": "Carrera 20",
+        "distance_osm_road_m": 14.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.399891,
+          5.344162
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-009",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 855.97,
+        "pixel_y": 134.42,
+        "distance_llegada_m": 38.6,
+        "distance_salida_m": 136.2,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 38.6,
+        "nearest_osm_road": "Carrera 19",
+        "distance_osm_road_m": 39.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.398662,
+          5.342047
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-010",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 858.41,
+        "pixel_y": 176.38,
+        "distance_llegada_m": 29.9,
+        "distance_salida_m": 129.0,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 29.9,
+        "nearest_osm_road": "Carrera 19",
+        "distance_osm_road_m": 30.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.397334,
+          5.3424
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-011",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 881.57,
+        "pixel_y": 181.31,
+        "distance_llegada_m": 119.9,
+        "distance_salida_m": 19.2,
+        "nearest_shape": "salida",
+        "distance_shape_m": 19.2,
+        "nearest_osm_road": "Carrera 20",
+        "distance_osm_road_m": 20.5,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.397403,
+          5.339418
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-012",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 857.33,
+        "pixel_y": 226.44,
+        "distance_llegada_m": 163.7,
+        "distance_salida_m": 147.9,
+        "nearest_shape": "salida",
+        "distance_shape_m": 147.9,
+        "nearest_osm_road": "Carrera 19",
+        "distance_osm_road_m": 29.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_over_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.395631,
+          5.339397
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-013",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 884.39,
+        "pixel_y": 240.55,
+        "distance_llegada_m": 339.3,
+        "distance_salida_m": 22.8,
+        "nearest_shape": "salida",
+        "distance_shape_m": 22.8,
+        "nearest_osm_road": "Carrera 20",
+        "distance_osm_road_m": 20.5,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.394225,
+          5.336893
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-014",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 886.54,
+        "pixel_y": 289.86,
+        "distance_llegada_m": 246.5,
+        "distance_salida_m": 26.6,
+        "nearest_shape": "salida",
+        "distance_shape_m": 26.6,
+        "nearest_osm_road": "Carrera 20",
+        "distance_osm_road_m": 24.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.395423,
+          5.335721
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-015",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 859.03,
+        "pixel_y": 298.49,
+        "distance_llegada_m": 84.0,
+        "distance_salida_m": 80.5,
+        "nearest_shape": "salida",
+        "distance_shape_m": 80.5,
+        "nearest_osm_road": "Transversal 19",
+        "distance_osm_road_m": 6.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_50_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.395015,
+          5.334781
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-016",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 858.0,
+        "pixel_y": 316.06,
+        "distance_llegada_m": 33.1,
+        "distance_salida_m": 23.3,
+        "nearest_shape": "salida",
+        "distance_shape_m": 23.3,
+        "nearest_osm_road": "Transversal 19",
+        "distance_osm_road_m": 21.4,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.394105,
+          5.332276
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-017",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 852.52,
+        "pixel_y": 361.52,
+        "distance_llegada_m": 29.8,
+        "distance_salida_m": 22.4,
+        "nearest_shape": "salida",
+        "distance_shape_m": 22.4,
+        "nearest_osm_road": "Carrera 18",
+        "distance_osm_road_m": 18.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.394002,
+          5.330992
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-018",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 844.12,
+        "pixel_y": 381.97,
+        "distance_llegada_m": 26.8,
+        "distance_salida_m": 36.8,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 26.8,
+        "nearest_osm_road": "Carrera 17 A",
+        "distance_osm_road_m": 21.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.392763,
+          5.329878
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-019",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 854.5,
+        "pixel_y": 408.69,
+        "distance_llegada_m": 34.2,
+        "distance_salida_m": 24.2,
+        "nearest_shape": "salida",
+        "distance_shape_m": 24.2,
+        "nearest_osm_road": "Calle 30",
+        "distance_osm_road_m": 21.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.392516,
+          5.328511
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-020",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 847.67,
+        "pixel_y": 431.53,
+        "distance_llegada_m": 15.3,
+        "distance_salida_m": 25.2,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 15.3,
+        "nearest_osm_road": "Carrera 18",
+        "distance_osm_road_m": 15.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.410671,
+          5.318933
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-021",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 494.33,
+        "pixel_y": 436.94,
+        "distance_llegada_m": 15.8,
+        "distance_salida_m": 24.9,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 15.8,
+        "nearest_osm_road": "Carrera 8",
+        "distance_osm_road_m": 17.1,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.411585,
+          5.317366
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-022",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 468.11,
+        "pixel_y": 453.83,
+        "distance_llegada_m": 39.2,
+        "distance_salida_m": 17.9,
+        "nearest_shape": "salida",
+        "distance_shape_m": 17.9,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 1.5,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.391475,
+          5.32752
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-023",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 855.96,
+        "pixel_y": 454.83,
+        "distance_llegada_m": 32.7,
+        "distance_salida_m": 22.3,
+        "nearest_shape": "salida",
+        "distance_shape_m": 22.3,
+        "nearest_osm_road": "Carrera 18",
+        "distance_osm_road_m": 21.5,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.407144,
+          5.319022
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-024",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 549.21,
+        "pixel_y": 463.03,
+        "distance_llegada_m": 11.5,
+        "distance_salida_m": 19.0,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 11.5,
+        "nearest_osm_road": "Calle 40",
+        "distance_osm_road_m": 17.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.407046,
+          5.318358
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-025",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 545.54,
+        "pixel_y": 473.97,
+        "distance_llegada_m": 62.7,
+        "distance_salida_m": 54.5,
+        "nearest_shape": "salida",
+        "distance_shape_m": 54.5,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 0.7,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_50_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.39133,
+          5.326094
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-026",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 847.11,
+        "pixel_y": 477.8,
+        "distance_llegada_m": 28.0,
+        "distance_salida_m": 39.4,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 28.0,
+        "nearest_osm_road": "Calle 35",
+        "distance_osm_road_m": 21.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.393496,
+          5.324907
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-027",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 804.62,
+        "pixel_y": 479.12,
+        "distance_llegada_m": 126.2,
+        "distance_salida_m": 129.3,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 126.2,
+        "nearest_osm_road": "Calle 35",
+        "distance_osm_road_m": 18.4,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_over_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.403936,
+          5.31887
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-028",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 597.31,
+        "pixel_y": 490.34,
+        "distance_llegada_m": 19.6,
+        "distance_salida_m": 31.5,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 19.6,
+        "nearest_osm_road": "Calle 40",
+        "distance_osm_road_m": 20.1,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.39067,
+          5.324859
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-029",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 847.65,
+        "pixel_y": 501.84,
+        "distance_llegada_m": 30.4,
+        "distance_salida_m": 27.1,
+        "nearest_shape": "salida",
+        "distance_shape_m": 27.1,
+        "nearest_osm_road": "Calle 36",
+        "distance_osm_road_m": 28.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.40191,
+          5.318754
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-030",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 627.53,
+        "pixel_y": 507.88,
+        "distance_llegada_m": 22.4,
+        "distance_salida_m": 33.7,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 22.4,
+        "nearest_osm_road": "Calle 40",
+        "distance_osm_road_m": 22.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.393589,
+          5.322531
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-031",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 784.71,
+        "pixel_y": 514.79,
+        "distance_llegada_m": 28.0,
+        "distance_salida_m": 38.7,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 28.0,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 14.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.39297,
+          5.322687
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-032",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 795.43,
+        "pixel_y": 517.22,
+        "distance_llegada_m": 42.5,
+        "distance_salida_m": 31.9,
+        "nearest_shape": "salida",
+        "distance_shape_m": 31.9,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 23.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.401799,
+          5.318113
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-033",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 624.26,
+        "pixel_y": 518.56,
+        "distance_llegada_m": 47.6,
+        "distance_salida_m": 36.2,
+        "nearest_shape": "salida",
+        "distance_shape_m": 36.2,
+        "nearest_osm_road": "Carrera 7B",
+        "distance_osm_road_m": 19.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.399039,
+          5.318588
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-034",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 670.34,
+        "pixel_y": 532.76,
+        "distance_llegada_m": 22.6,
+        "distance_salida_m": 33.9,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 22.6,
+        "nearest_osm_road": "Carrera 11",
+        "distance_osm_road_m": 3.5,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.396698,
+          5.318745
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-035",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 707.54,
+        "pixel_y": 548.59,
+        "distance_llegada_m": 21.1,
+        "distance_salida_m": 32.4,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 21.1,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 5.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.395974,
+          5.318391
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-036",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 715.91,
+        "pixel_y": 559.65,
+        "distance_llegada_m": 41.6,
+        "distance_salida_m": 30.8,
+        "nearest_shape": "salida",
+        "distance_shape_m": 30.8,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 25.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.393476,
+          5.319526
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-037",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 763.11,
+        "pixel_y": 561.7,
+        "distance_llegada_m": 27.2,
+        "distance_salida_m": 37.5,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 27.2,
+        "nearest_osm_road": "Calle 39 A",
+        "distance_osm_road_m": 12.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.417867,
+          5.306936
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-038",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 290.56,
+        "pixel_y": 564.7,
+        "distance_llegada_m": 155.7,
+        "distance_salida_m": 159.5,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 155.7,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 8.1,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_over_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.393332,
+          5.318936
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-039",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 760.74,
+        "pixel_y": 571.85,
+        "distance_llegada_m": 39.8,
+        "distance_salida_m": 29.6,
+        "nearest_shape": "salida",
+        "distance_shape_m": 29.6,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 4.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.41746,
+          5.306571
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-040",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 293.97,
+        "pixel_y": 573.45,
+        "distance_llegada_m": 98.3,
+        "distance_salida_m": 102.0,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 98.3,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 6.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_50_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.420084,
+          5.304078
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-041",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 234.27,
+        "pixel_y": 591.21,
+        "distance_llegada_m": 335.3,
+        "distance_salida_m": 337.4,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 335.3,
+        "nearest_osm_road": "Carrera 8",
+        "distance_osm_road_m": 24.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_over_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.419603,
+          5.303998
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-042",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 241.05,
+        "pixel_y": 596.18,
+        "distance_llegada_m": 281.2,
+        "distance_salida_m": 283.3,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 281.2,
+        "nearest_osm_road": "Carrera 8 Oeste",
+        "distance_osm_road_m": 14.4,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_over_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.421998,
+          5.299697
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-043",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 170.83,
+        "pixel_y": 643.41,
+        "distance_llegada_m": 4.8,
+        "distance_salida_m": 0.9,
+        "nearest_shape": "salida",
+        "distance_shape_m": 0.9,
+        "nearest_osm_road": "Calle 66",
+        "distance_osm_road_m": 3.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.419283,
+          5.300968
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-044",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 222.42,
+        "pixel_y": 645.08,
+        "distance_llegada_m": 5.3,
+        "distance_salida_m": 7.1,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 5.3,
+        "nearest_osm_road": "Carrera 7 Oeste",
+        "distance_osm_road_m": 5.4,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.419045,
+          5.300572
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-045",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 223.0,
+        "pixel_y": 653.0,
+        "distance_llegada_m": 37.7,
+        "distance_salida_m": 36.0,
+        "nearest_shape": "salida",
+        "distance_shape_m": 36.0,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 8.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.42186,
+          5.298713
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R2-046",
+        "route_id": 2,
+        "source_page": 40,
+        "pixel_x": 165.31,
+        "pixel_y": 659.56,
+        "distance_llegada_m": 67.4,
+        "distance_salida_m": 64.1,
+        "nearest_shape": "salida",
+        "distance_shape_m": 64.1,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 2.1,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_50_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.400398,
+          5.350367
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-001",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 596.5,
+        "pixel_y": 10.96,
+        "distance_llegada_m": 148.6,
+        "distance_salida_m": 25.9,
+        "nearest_shape": "salida",
+        "distance_shape_m": 25.9,
+        "nearest_osm_road": "Calle 7",
+        "distance_osm_road_m": 26.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.402276,
+          5.348597
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-002",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 558.72,
+        "pixel_y": 21.96,
+        "distance_llegada_m": 37.2,
+        "distance_salida_m": 138.8,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 37.2,
+        "nearest_osm_road": "Transversal 18",
+        "distance_osm_road_m": 36.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.395297,
+          5.350218
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-003",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 664.97,
+        "pixel_y": 47.91,
+        "distance_llegada_m": 74.1,
+        "distance_salida_m": 26.0,
+        "nearest_shape": "salida",
+        "distance_shape_m": 26.0,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 14.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.401047,
+          5.346388
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-004",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 560.23,
+        "pixel_y": 60.15,
+        "distance_llegada_m": 32.4,
+        "distance_salida_m": 349.3,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 32.4,
+        "nearest_osm_road": "Calle 10",
+        "distance_osm_road_m": 20.5,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.395039,
+          5.349424
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-005",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 663.0,
+        "pixel_y": 60.37,
+        "distance_llegada_m": 15.9,
+        "distance_salida_m": 47.2,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 15.9,
+        "nearest_osm_road": "Calle 10",
+        "distance_osm_road_m": 17.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.398374,
+          5.347339
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-006",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 603.2,
+        "pixel_y": 65.64,
+        "distance_llegada_m": 27.1,
+        "distance_salida_m": 171.4,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 27.1,
+        "nearest_osm_road": "Calle 10",
+        "distance_osm_road_m": 29.4,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.392697,
+          5.349333
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-007",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 694.29,
+        "pixel_y": 77.64,
+        "distance_llegada_m": 33.5,
+        "distance_salida_m": 42.6,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 33.5,
+        "nearest_osm_road": "Carrera 28",
+        "distance_osm_road_m": 7.4,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.392033,
+          5.34912
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-008",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 701.86,
+        "pixel_y": 85.06,
+        "distance_llegada_m": 19.3,
+        "distance_salida_m": 11.8,
+        "nearest_shape": "salida",
+        "distance_shape_m": 11.8,
+        "nearest_osm_road": "Carrera 29",
+        "distance_osm_road_m": 8.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.390993,
+          5.34729
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-009",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 703.41,
+        "pixel_y": 116.86,
+        "distance_llegada_m": 22.2,
+        "distance_salida_m": 39.2,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 22.2,
+        "nearest_osm_road": "Carrera 29",
+        "distance_osm_road_m": 24.5,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.390433,
+          5.347574
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-010",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 713.01,
+        "pixel_y": 116.86,
+        "distance_llegada_m": 43.5,
+        "distance_salida_m": 26.6,
+        "nearest_shape": "salida",
+        "distance_shape_m": 26.6,
+        "nearest_osm_road": "Carrera 29",
+        "distance_osm_road_m": 29.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.388806,
+          5.344166
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-011",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 711.7,
+        "pixel_y": 173.96,
+        "distance_llegada_m": 35.6,
+        "distance_salida_m": 50.5,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 35.6,
+        "nearest_osm_road": "Calle 19",
+        "distance_osm_road_m": 32.1,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.387525,
+          5.34333
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-012",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 723.38,
+        "pixel_y": 194.0,
+        "distance_llegada_m": 24.9,
+        "distance_salida_m": 8.8,
+        "nearest_shape": "salida",
+        "distance_shape_m": 8.8,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 7.1,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.408505,
+          5.331344
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-013",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 354.96,
+        "pixel_y": 211.89,
+        "distance_llegada_m": 13.7,
+        "distance_salida_m": 149.1,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 13.7,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 11.7,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.405315,
+          5.332539
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-014",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 406.67,
+        "pixel_y": 217.63,
+        "distance_llegada_m": 14.6,
+        "distance_salida_m": 148.3,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 14.6,
+        "nearest_osm_road": "Calle 24",
+        "distance_osm_road_m": 15.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.387079,
+          5.34178
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-015",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 718.78,
+        "pixel_y": 217.96,
+        "distance_llegada_m": 28.2,
+        "distance_salida_m": 44.2,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 28.2,
+        "nearest_osm_road": "Calle 21 A",
+        "distance_osm_road_m": 14.4,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.409513,
+          5.329657
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-016",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 329.6,
+        "pixel_y": 227.73,
+        "distance_llegada_m": 20.2,
+        "distance_salida_m": 81.9,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 20.2,
+        "nearest_osm_road": "Carrera 5",
+        "distance_osm_road_m": 21.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.402118,
+          5.333392
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-017",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 456.09,
+        "pixel_y": 228.03,
+        "distance_llegada_m": 16.1,
+        "distance_salida_m": 32.2,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 16.1,
+        "nearest_osm_road": "Calle 24",
+        "distance_osm_road_m": 17.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.407274,
+          5.330334
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-018",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 364.78,
+        "pixel_y": 233.94,
+        "distance_llegada_m": 160.6,
+        "distance_salida_m": 22.8,
+        "nearest_shape": "salida",
+        "distance_shape_m": 22.8,
+        "nearest_osm_road": "Calle 25",
+        "distance_osm_road_m": 24.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.398895,
+          5.334319
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-019",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 506.39,
+        "pixel_y": 237.61,
+        "distance_llegada_m": 29.2,
+        "distance_salida_m": 44.6,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 29.2,
+        "nearest_osm_road": "Carrera 14 A",
+        "distance_osm_road_m": 22.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.400632,
+          5.333256
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-020",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 475.4,
+        "pixel_y": 240.04,
+        "distance_llegada_m": 41.1,
+        "distance_salida_m": 25.9,
+        "nearest_shape": "salida",
+        "distance_shape_m": 25.9,
+        "nearest_osm_road": "Carrera 13",
+        "distance_osm_road_m": 25.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.385841,
+          5.340665
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-021",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 727.96,
+        "pixel_y": 241.46,
+        "distance_llegada_m": 24.6,
+        "distance_salida_m": 8.3,
+        "nearest_shape": "salida",
+        "distance_shape_m": 8.3,
+        "nearest_osm_road": "Carrera 29",
+        "distance_osm_road_m": 10.4,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.386597,
+          5.340134
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-022",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 714.0,
+        "pixel_y": 243.44,
+        "distance_llegada_m": 30.0,
+        "distance_salida_m": 43.6,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 30.0,
+        "nearest_osm_road": "Calle 23 A",
+        "distance_osm_road_m": 11.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.403811,
+          5.331307
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-023",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 418.67,
+        "pixel_y": 244.55,
+        "distance_llegada_m": 160.0,
+        "distance_salida_m": 25.0,
+        "nearest_shape": "salida",
+        "distance_shape_m": 25.0,
+        "nearest_osm_road": "Calle 25",
+        "distance_osm_road_m": 26.5,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.390062,
+          5.338127
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-024",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 652.96,
+        "pixel_y": 246.78,
+        "distance_llegada_m": 19.6,
+        "distance_salida_m": 35.7,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 19.6,
+        "nearest_osm_road": "Calle 23 A",
+        "distance_osm_road_m": 21.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.393489,
+          5.336327
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-025",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 593.88,
+        "pixel_y": 247.57,
+        "distance_llegada_m": 28.3,
+        "distance_salida_m": 44.9,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 28.3,
+        "nearest_osm_road": "Carrera 20A",
+        "distance_osm_road_m": 18.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.396102,
+          5.334989
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-026",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 549.06,
+        "pixel_y": 247.71,
+        "distance_llegada_m": 17.8,
+        "distance_salida_m": 33.0,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 17.8,
+        "nearest_osm_road": "Calle 24",
+        "distance_osm_road_m": 19.1,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.398386,
+          5.333746
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-027",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 509.37,
+        "pixel_y": 248.81,
+        "distance_llegada_m": 45.8,
+        "distance_salida_m": 31.0,
+        "nearest_shape": "salida",
+        "distance_shape_m": 31.0,
+        "nearest_osm_road": "Calle 24 A",
+        "distance_osm_road_m": 19.1,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.387261,
+          5.339145
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-028",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 698.13,
+        "pixel_y": 252.23,
+        "distance_llegada_m": 29.3,
+        "distance_salida_m": 15.8,
+        "nearest_shape": "salida",
+        "distance_shape_m": 15.8,
+        "nearest_osm_road": "Calle 24",
+        "distance_osm_road_m": 17.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.390529,
+          5.337372
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-029",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 641.4,
+        "pixel_y": 253.76,
+        "distance_llegada_m": 28.2,
+        "distance_salida_m": 11.9,
+        "nearest_shape": "salida",
+        "distance_shape_m": 11.9,
+        "nearest_osm_road": "Calle 24",
+        "distance_osm_road_m": 14.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.39322,
+          5.335796
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-030",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 593.88,
+        "pixel_y": 256.57,
+        "distance_llegada_m": 37.6,
+        "distance_salida_m": 20.9,
+        "nearest_shape": "salida",
+        "distance_shape_m": 20.9,
+        "nearest_osm_road": "Carrera 20A",
+        "distance_osm_road_m": 17.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.395833,
+          5.334458
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-031",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 549.06,
+        "pixel_y": 256.71,
+        "distance_llegada_m": 47.6,
+        "distance_salida_m": 32.4,
+        "nearest_shape": "salida",
+        "distance_shape_m": 32.4,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 0.5,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.40757,
+          5.326931
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-032",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 337.29,
+        "pixel_y": 277.79,
+        "distance_llegada_m": 39.7,
+        "distance_salida_m": 55.5,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 39.7,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 28.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.406915,
+          5.327263
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-033",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 348.5,
+        "pixel_y": 277.81,
+        "distance_llegada_m": 40.3,
+        "distance_salida_m": 24.4,
+        "nearest_shape": "salida",
+        "distance_shape_m": 24.4,
+        "nearest_osm_road": "Carrera 5",
+        "distance_osm_road_m": 27.1,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.405164,
+          5.324902
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-034",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 356.09,
+        "pixel_y": 321.64,
+        "distance_llegada_m": 43.7,
+        "distance_salida_m": 27.3,
+        "nearest_shape": "salida",
+        "distance_shape_m": 27.3,
+        "nearest_osm_road": "Carrera 5",
+        "distance_osm_road_m": 29.5,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.405595,
+          5.324394
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-035",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 346.71,
+        "pixel_y": 325.52,
+        "distance_llegada_m": 25.1,
+        "distance_salida_m": 42.1,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 25.1,
+        "nearest_osm_road": "Carrera 5",
+        "distance_osm_road_m": 27.7,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.404424,
+          5.321551
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-036",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 343.08,
+        "pixel_y": 371.88,
+        "distance_llegada_m": 58.5,
+        "distance_salida_m": 46.2,
+        "nearest_shape": "salida",
+        "distance_shape_m": 46.2,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 6.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.403599,
+          5.321887
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-037",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 356.63,
+        "pixel_y": 373.0,
+        "distance_llegada_m": 153.0,
+        "distance_salida_m": 140.2,
+        "nearest_shape": "salida",
+        "distance_shape_m": 140.2,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 0.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_over_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.403967,
+          5.318844
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-038",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 330.64,
+        "pixel_y": 411.5,
+        "distance_llegada_m": 28.8,
+        "distance_salida_m": 15.5,
+        "nearest_shape": "salida",
+        "distance_shape_m": 15.5,
+        "nearest_osm_road": "Calle 40",
+        "distance_osm_road_m": 17.1,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.402911,
+          5.318807
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-039",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 344.78,
+        "pixel_y": 419.25,
+        "distance_llegada_m": 34.6,
+        "distance_salida_m": 18.4,
+        "nearest_shape": "salida",
+        "distance_shape_m": 18.4,
+        "nearest_osm_road": "Transversal 5",
+        "distance_osm_road_m": 15.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.402519,
+          5.317669
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-040",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 342.27,
+        "pixel_y": 437.27,
+        "distance_llegada_m": 16.0,
+        "distance_salida_m": 19.4,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 16.0,
+        "nearest_osm_road": "Calle 41",
+        "distance_osm_road_m": 2.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.40313,
+          5.317211
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-041",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 330.8,
+        "pixel_y": 439.27,
+        "distance_llegada_m": 88.7,
+        "distance_salida_m": 91.7,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 88.7,
+        "nearest_osm_road": "Carrera 6",
+        "distance_osm_road_m": 21.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_50_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.402854,
+          5.315799
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-042",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 324.82,
+        "pixel_y": 460.18,
+        "distance_llegada_m": 72.9,
+        "distance_salida_m": 76.1,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 72.9,
+        "nearest_osm_road": "Carrera 6A",
+        "distance_osm_road_m": 6.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_50_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.402284,
+          5.315014
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-043",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 327.18,
+        "pixel_y": 474.68,
+        "distance_llegada_m": 17.7,
+        "distance_salida_m": 21.2,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 17.7,
+        "nearest_osm_road": "Calle 44",
+        "distance_osm_road_m": 9.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.401173,
+          5.31325
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-044",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 330.16,
+        "pixel_y": 506.06,
+        "distance_llegada_m": 84.8,
+        "distance_salida_m": 82.2,
+        "nearest_shape": "salida",
+        "distance_shape_m": 82.2,
+        "nearest_osm_road": "Calle 45B",
+        "distance_osm_road_m": 20.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_50_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.401963,
+          5.312619
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-045",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 315.06,
+        "pixel_y": 509.17,
+        "distance_llegada_m": 9.1,
+        "distance_salida_m": 11.4,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 9.1,
+        "nearest_osm_road": "Carrera 46A",
+        "distance_osm_road_m": 5.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.417307,
+          5.303434
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-046",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 42.71,
+        "pixel_y": 527.89,
+        "distance_llegada_m": 27.1,
+        "distance_salida_m": 28.7,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 27.1,
+        "nearest_osm_road": "Carrera 5 Oeste",
+        "distance_osm_road_m": 18.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.402623,
+          5.310561
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-047",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 291.88,
+        "pixel_y": 532.38,
+        "distance_llegada_m": 101.8,
+        "distance_salida_m": 105.8,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 101.8,
+        "nearest_osm_road": "Calle 49",
+        "distance_osm_road_m": 15.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_over_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.400411,
+          5.311555
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-048",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 328.86,
+        "pixel_y": 534.14,
+        "distance_llegada_m": 152.7,
+        "distance_salida_m": 149.2,
+        "nearest_shape": "salida",
+        "distance_shape_m": 149.2,
+        "nearest_osm_road": "Calle 47",
+        "distance_osm_road_m": 18.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_over_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.416971,
+          5.302869
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-049",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 43.39,
+        "pixel_y": 537.81,
+        "distance_llegada_m": 27.5,
+        "distance_salida_m": 25.8,
+        "nearest_shape": "salida",
+        "distance_shape_m": 25.8,
+        "nearest_osm_road": "Calle 60A",
+        "distance_osm_road_m": 16.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.413014,
+          5.302604
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-050",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 95.47,
+        "pixel_y": 568.47,
+        "distance_llegada_m": 22.8,
+        "distance_salida_m": 25.6,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 22.8,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 5.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.412382,
+          5.30203
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-051",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 100.13,
+        "pixel_y": 580.55,
+        "distance_llegada_m": 27.2,
+        "distance_salida_m": 23.9,
+        "nearest_shape": "salida",
+        "distance_shape_m": 23.9,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 17.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.403341,
+          5.301973
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-052",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 222.91,
+        "pixel_y": 643.25,
+        "distance_llegada_m": 28.9,
+        "distance_salida_m": 36.9,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 28.9,
+        "nearest_osm_road": "Vía a Morichal",
+        "distance_osm_road_m": 29.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.403695,
+          5.301521
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R3-053",
+        "route_id": 3,
+        "source_page": 40,
+        "pixel_x": 214.97,
+        "pixel_y": 646.91,
+        "distance_llegada_m": 15.2,
+        "distance_salida_m": 11.7,
+        "nearest_shape": "salida",
+        "distance_shape_m": 11.7,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 16.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.399917,
+          5.347134
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-001",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 770.36,
+        "pixel_y": 57.12,
+        "distance_llegada_m": 119.1,
+        "distance_salida_m": 16.1,
+        "nearest_shape": "salida",
+        "distance_shape_m": 16.1,
+        "nearest_osm_road": "Carrera 20",
+        "distance_osm_road_m": 16.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.401093,
+          5.346384
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-002",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 748.36,
+        "pixel_y": 59.27,
+        "distance_llegada_m": 35.2,
+        "distance_salida_m": 98.6,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 35.2,
+        "nearest_osm_road": "Calle 10",
+        "distance_osm_road_m": 22.5,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.398611,
+          5.344874
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-003",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 772.67,
+        "pixel_y": 98.5,
+        "distance_llegada_m": 126.0,
+        "distance_salida_m": 26.0,
+        "nearest_shape": "salida",
+        "distance_shape_m": 26.0,
+        "nearest_osm_road": "Carrera 20",
+        "distance_osm_road_m": 27.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.399826,
+          5.344221
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-004",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 750.8,
+        "pixel_y": 99.0,
+        "distance_llegada_m": 26.9,
+        "distance_salida_m": 127.0,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 26.9,
+        "nearest_osm_road": "Carrera 19",
+        "distance_osm_road_m": 29.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.398637,
+          5.342011
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-005",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 751.82,
+        "pixel_y": 138.82,
+        "distance_llegada_m": 27.5,
+        "distance_salida_m": 134.1,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 27.5,
+        "nearest_osm_road": "Carrera 19",
+        "distance_osm_road_m": 29.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.397296,
+          5.342377
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-006",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 773.4,
+        "pixel_y": 143.28,
+        "distance_llegada_m": 123.3,
+        "distance_salida_m": 16.2,
+        "nearest_shape": "salida",
+        "distance_shape_m": 16.2,
+        "nearest_osm_road": "Carrera 20",
+        "distance_osm_road_m": 22.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.397408,
+          5.339414
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-007",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 750.62,
+        "pixel_y": 184.41,
+        "distance_llegada_m": 29.3,
+        "distance_salida_m": 149.6,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 29.3,
+        "nearest_osm_road": "Carrera 19",
+        "distance_osm_road_m": 30.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.395663,
+          5.339408
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-008",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 775.26,
+        "pixel_y": 197.04,
+        "distance_llegada_m": 141.0,
+        "distance_salida_m": 20.5,
+        "nearest_shape": "salida",
+        "distance_shape_m": 20.5,
+        "nearest_osm_road": "Carrera 20",
+        "distance_osm_road_m": 18.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.408535,
+          5.331369
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-009",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 535.65,
+        "pixel_y": 218.27,
+        "distance_llegada_m": 19.9,
+        "distance_salida_m": 30.1,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 19.9,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 7.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.405308,
+          5.332546
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-010",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 589.71,
+        "pixel_y": 224.81,
+        "distance_llegada_m": 16.9,
+        "distance_salida_m": 26.7,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 16.9,
+        "nearest_osm_road": "Calle 24",
+        "distance_osm_road_m": 16.4,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.408159,
+          5.33093
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-011",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 537.83,
+        "pixel_y": 227.17,
+        "distance_llegada_m": 44.0,
+        "distance_salida_m": 33.8,
+        "nearest_shape": "salida",
+        "distance_shape_m": 33.8,
+        "nearest_osm_road": "Calle 24",
+        "distance_osm_road_m": 32.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.396084,
+          5.336934
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-012",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 751.61,
+        "pixel_y": 229.04,
+        "distance_llegada_m": 29.4,
+        "distance_salida_m": 151.5,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 29.4,
+        "nearest_osm_road": "Carrera 19",
+        "distance_osm_road_m": 30.4,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.402101,
+          5.333341
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-013",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 640.78,
+        "pixel_y": 236.61,
+        "distance_llegada_m": 13.8,
+        "distance_salida_m": 23.1,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 13.8,
+        "nearest_osm_road": "Calle 24",
+        "distance_osm_road_m": 11.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.409661,
+          5.329466
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-014",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 506.1,
+        "pixel_y": 237.1,
+        "distance_llegada_m": 47.4,
+        "distance_salida_m": 59.0,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 47.4,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 13.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.394213,
+          5.336928
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-015",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 778.03,
+        "pixel_y": 242.57,
+        "distance_llegada_m": 153.9,
+        "distance_salida_m": 30.2,
+        "nearest_shape": "salida",
+        "distance_shape_m": 30.2,
+        "nearest_osm_road": "Carrera 20",
+        "distance_osm_road_m": 27.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.398877,
+          5.334325
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-016",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 693.42,
+        "pixel_y": 245.88,
+        "distance_llegada_m": 31.2,
+        "distance_salida_m": 39.5,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 31.2,
+        "nearest_osm_road": "Carrera 14 A",
+        "distance_osm_road_m": 24.7,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.40062,
+          5.333192
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-017",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 660.66,
+        "pixel_y": 249.38,
+        "distance_llegada_m": 42.9,
+        "distance_salida_m": 32.6,
+        "nearest_shape": "salida",
+        "distance_shape_m": 32.6,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 20.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.396089,
+          5.334938
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-018",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 737.25,
+        "pixel_y": 257.25,
+        "distance_llegada_m": 13.7,
+        "distance_salida_m": 22.3,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 13.7,
+        "nearest_osm_road": "Calle 24",
+        "distance_osm_road_m": 13.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.398378,
+          5.333751
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-019",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 696.38,
+        "pixel_y": 257.59,
+        "distance_llegada_m": 44.2,
+        "distance_salida_m": 35.5,
+        "nearest_shape": "salida",
+        "distance_shape_m": 35.5,
+        "nearest_osm_road": "Calle 24 A",
+        "distance_osm_road_m": 19.3,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.395893,
+          5.334515
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-020",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 737.0,
+        "pixel_y": 264.64,
+        "distance_llegada_m": 37.7,
+        "distance_salida_m": 29.0,
+        "nearest_shape": "salida",
+        "distance_shape_m": 29.0,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 7.7,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.407603,
+          5.32692
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-021",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 517.0,
+        "pixel_y": 287.92,
+        "distance_llegada_m": 48.0,
+        "distance_salida_m": 56.6,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 48.0,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 31.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.406911,
+          5.327266
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-022",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 529.27,
+        "pixel_y": 288.0,
+        "distance_llegada_m": 36.1,
+        "distance_salida_m": 27.5,
+        "nearest_shape": "salida",
+        "distance_shape_m": 27.5,
+        "nearest_osm_road": "Carrera 5",
+        "distance_osm_road_m": 27.7,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.405147,
+          5.324933
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-023",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 537.52,
+        "pixel_y": 333.71,
+        "distance_llegada_m": 43.9,
+        "distance_salida_m": 34.9,
+        "nearest_shape": "salida",
+        "distance_shape_m": 34.9,
+        "nearest_osm_road": "Carrera 5",
+        "distance_osm_road_m": 32.7,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.405575,
+          5.324416
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-024",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 527.78,
+        "pixel_y": 337.94,
+        "distance_llegada_m": 25.7,
+        "distance_salida_m": 33.7,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 25.7,
+        "nearest_osm_road": "Carrera 5",
+        "distance_osm_road_m": 24.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.404422,
+          5.321576
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-025",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 523.75,
+        "pixel_y": 386.43,
+        "distance_llegada_m": 57.1,
+        "distance_salida_m": 48.2,
+        "nearest_shape": "salida",
+        "distance_shape_m": 48.2,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 6.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.403573,
+          5.321892
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-026",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 538.03,
+        "pixel_y": 388.07,
+        "distance_llegada_m": 154.2,
+        "distance_salida_m": 145.6,
+        "nearest_shape": "salida",
+        "distance_shape_m": 145.6,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 3.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_over_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.402874,
+          5.318814
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-027",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 525.9,
+        "pixel_y": 436.65,
+        "distance_llegada_m": 199.7,
+        "distance_salida_m": 171.4,
+        "nearest_shape": "salida",
+        "distance_shape_m": 171.4,
+        "nearest_osm_road": "Transversal 5",
+        "distance_osm_road_m": 11.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_over_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.403849,
+          5.315604
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-028",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 489.13,
+        "pixel_y": 475.07,
+        "distance_llegada_m": 53.2,
+        "distance_salida_m": 49.1,
+        "nearest_shape": "salida",
+        "distance_shape_m": 49.1,
+        "nearest_osm_road": "Calle 43",
+        "distance_osm_road_m": 6.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.417303,
+          5.303453
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-029",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 211.86,
+        "pixel_y": 550.28,
+        "distance_llegada_m": 34.4,
+        "distance_salida_m": 38.2,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 34.4,
+        "nearest_osm_road": "Carrera 5 Oeste",
+        "distance_osm_road_m": 18.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.416967,
+          5.302868
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-030",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 212.42,
+        "pixel_y": 560.97,
+        "distance_llegada_m": 27.9,
+        "distance_salida_m": 25.1,
+        "nearest_shape": "salida",
+        "distance_shape_m": 25.1,
+        "nearest_osm_road": "Calle 60A",
+        "distance_osm_road_m": 16.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.412664,
+          5.305044
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-031",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 288.87,
+        "pixel_y": 561.13,
+        "distance_llegada_m": 294.7,
+        "distance_salida_m": 296.9,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 294.7,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 7.1,
+        "status": "historical_candidate_unverified",
+        "review_tier": "review_over_100m",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.422305,
+          5.299865
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-032",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 115.42,
+        "pixel_y": 565.08,
+        "distance_llegada_m": 36.6,
+        "distance_salida_m": 38.7,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 36.6,
+        "nearest_osm_road": "via sin paimentar",
+        "distance_osm_road_m": 8.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.419353,
+          5.301018
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-033",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 165.44,
+        "pixel_y": 570.0,
+        "distance_llegada_m": 10.9,
+        "distance_salida_m": 12.6,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 10.9,
+        "nearest_osm_road": "Carrera 7 Oeste",
+        "distance_osm_road_m": 14.1,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.419007,
+          5.300573
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-034",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 167.14,
+        "pixel_y": 578.79,
+        "distance_llegada_m": 37.7,
+        "distance_salida_m": 36.0,
+        "nearest_shape": "salida",
+        "distance_shape_m": 36.0,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 8.5,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.422199,
+          5.298906
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-035",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 110.07,
+        "pixel_y": 579.41,
+        "distance_llegada_m": 24.2,
+        "distance_salida_m": 20.9,
+        "nearest_shape": "salida",
+        "distance_shape_m": 20.9,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 11.0,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.413014,
+          5.30263
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-036",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 266.65,
+        "pixel_y": 592.77,
+        "distance_llegada_m": 24.9,
+        "distance_salida_m": 27.1,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 24.9,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 5.6,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.412399,
+          5.302018
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-037",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 270.97,
+        "pixel_y": 605.86,
+        "distance_llegada_m": 28.9,
+        "distance_salida_m": 27.3,
+        "nearest_shape": "salida",
+        "distance_shape_m": 27.3,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 15.9,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.403333,
+          5.301978
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-038",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 398.92,
+        "pixel_y": 671.62,
+        "distance_llegada_m": 29.2,
+        "distance_salida_m": 31.4,
+        "nearest_shape": "llegada",
+        "distance_shape_m": 29.2,
+        "nearest_osm_road": "Vía a Morichal",
+        "distance_osm_road_m": 28.8,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.403689,
+          5.301473
+        ]
+      },
+      "properties": {
+        "candidate_id": "PIMUR2017-R13-039",
+        "route_id": 13,
+        "source_page": 41,
+        "pixel_x": 390.28,
+        "pixel_y": 676.21,
+        "distance_llegada_m": 23.9,
+        "distance_salida_m": 22.3,
+        "nearest_shape": "salida",
+        "distance_shape_m": 22.3,
+        "nearest_osm_road": "",
+        "distance_osm_road_m": 22.2,
+        "status": "historical_candidate_unverified",
+        "review_tier": "near_current_shape",
+        "source_year": 2017,
+        "source": "Findeter MIB Yopal, PIMUR route map; georeferenced against OSM export 2026-11-26",
+        "direction_verified": false
+      }
+    }
+  ]
+}
